@@ -1,0 +1,11 @@
+<86>Oct 18 23:53:31 userdel[25291]: delete user 'rooter'
+<86>Oct 18 23:53:31 userdel[25291]: removed shadow group 'rooter' owned by 'rooter'
+<86>Oct 18 23:53:31 groupadd[25298]: group added to /etc/group: name=rooter, GID=1001
+<86>Oct 18 23:53:31 groupadd[25298]: group added to /etc/gshadow: name=rooter
+<86>Oct 18 23:53:31 groupadd[25298]: new group: name=rooter, GID=1001
+<86>Oct 18 23:53:31 useradd[25304]: new user: name=rooter, UID=1001, GID=1001, home=/root, shell=/bin/bash, from=none
+<86>Oct 18 23:53:31 userdel[25314]: delete user 'builder'
+<86>Oct 18 23:53:31 groupadd[25321]: group added to /etc/group: name=builder, GID=1002
+<86>Oct 18 23:53:31 groupadd[25321]: group added to /etc/gshadow: name=builder
+<86>Oct 18 23:53:31 groupadd[25321]: new group: name=builder, GID=1002
+<86>Oct 18 23:53:31 useradd[25328]: new user: name=builder, UID=1002, GID=1002, home=/usr/src, shell=/bin/bash, from=none

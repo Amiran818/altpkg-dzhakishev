@@ -1,0 +1,3 @@
+a14c8af03aeee6fee4d329de0cab83229c3481bab87b1ebee61f6dc170bd81b6  /home/user/lab01-work/x1/dzhakishev-hello.sh
+a14c8af03aeee6fee4d329de0cab83229c3481bab87b1ebee61f6dc170bd81b6  /home/user/lab01-work/x2/dzhakishev-hello.sh
+a14c8af03aeee6fee4d329de0cab83229c3481bab87b1ebee61f6dc170bd81b6  lab01/sources/dzhakishev-hello.sh

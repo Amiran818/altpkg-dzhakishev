@@ -1,0 +1,2 @@
+dzhakishev-hello 1.0 alt1 noarch
+dzhakishev-hello 1.0 alt1 noarch
