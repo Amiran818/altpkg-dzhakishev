@@ -1,4 +1,4 @@
 # настройки hasher для локальной сборки
 packager="Amir Dzhakishev <344528613+Amiran818@users.noreply.github.com>"
 # проверки репозитория Sisyphus не нужны при локальной сборке
-no_sisyphus_check="packager,gpg"
+no_sisyphus_check="packager,gpg,changelog"
