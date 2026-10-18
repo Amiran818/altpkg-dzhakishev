@@ -1,8 +1,8 @@
 cp /.in/dzhakishev-null.spec ~/RPM/SPECS/ && cd ~/RPM/SPECS && rpmbuild -ba dzhakishev-null.spec; echo "rpmbuild rc=$?"
-]0;builder@localhost: /.in[?2004h[builder@localhost .in]$ cp /.in/dzhakishev-null.spec ~/RPM/SPECS/ && cd ~/RPM/SPPECS && rpmbuild -ba dzhakishev-null.spec; echo "rpmbuild rc=$?"
-[?2004lProcessing files: dzhakishev-null-1.0-alt1
+[builder@localhost .in]$ cp /.in/dzhakishev-null.spec ~/RPM/SPECS/ && cd ~/RPM/SPPECS && rpmbuild -ba dzhakishev-null.spec; echo "rpmbuild rc=$?"
+Processing files: dzhakishev-null-1.0-alt1
 Wrote: /usr/src/RPM/SRPMS/dzhakishev-null-1.0-alt1.src.rpm (w2.lzdio)
 Wrote: /usr/src/RPM/RPMS/noarch/dzhakishev-null-1.0-alt1.noarch.rpm (w2.lzdio)
 rpmbuild rc=0
-]0;builder@localhost: /usr/src/RPM/SPECS[?2004h[builder@localhost SPECS]$ [?2004l
+[builder@localhost SPECS]$ 
 logout

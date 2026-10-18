@@ -1,0 +1,31 @@
+cp /.in/dzhakishev-hello.spec ~/RPM/SPECS/ && cp /.in/dzhakishev-hello.sh ~/RPM/SOURCES/ && cd ~/RPM/SPECS && rpmbuild -ba dzhakishev-hello.spec; echo "rpmbuild rc=$?"
+[builder@localhost .in]$ cp /.in/dzhakishev-hello.spec ~/RPM/SPECS/ && cp /.in/dzzhakishev-hello.sh ~/RPM/SOURCES/ && cd ~/RPM/SPECS && rpmbuild -ba dzhakishev-heello.spec; echo "rpmbuild rc=$?"
+Executing(%install): /bin/sh -e /usr/src/tmp/rpmb-tmp.xM392V
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/dzhakishev-hello-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/dzhakishev-hello-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ install -D -m 0755 /usr/src/RPM/SOURCES/dzhakishev-hello.sh /usr/src/tmp/dzhakishev-hello-buildroot/usr/bin/dzhakishev-hello
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/dzhakishev-hello-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/dzhakishev-hello-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/dzhakishev-hello-buildroot/ (default)
+Compressing files in /usr/src/tmp/dzhakishev-hello-buildroot (auto)
+Verifying ELF objects in /usr/src/tmp/dzhakishev-hello-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/dzhakishev-hello-buildroot
+Processing files: dzhakishev-hello-1.0-alt1
+Finding Provides (using /usr/lib/rpm/find-provides)
+Executing(+autodep): /bin/sh -e /usr/src/tmp/rpmb-autodep.OGKtrP
+find-provides: running scripts (debuginfo,lib,pam,perl,pkgconfig,python,python3,shell,sysusers)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Executing(+autodep): /bin/sh -e /usr/src/tmp/rpmb-autodep.KvZKMX
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+Requires: /bin/sh
+Wrote: /usr/src/RPM/SRPMS/dzhakishev-hello-1.0-alt1.src.rpm (w2.lzdio)
+Wrote: /usr/src/RPM/RPMS/noarch/dzhakishev-hello-1.0-alt1.noarch.rpm (w2.lzdio)
+rpmbuild rc=0
+[builder@localhost SPECS]$ 
+logout

@@ -1,0 +1,11 @@
+P=~/RPM/RPMS/noarch/dzhakishev-hello-1.0-alt1.noarch.rpm; echo "--- rpm -qpl:"; rpm -qpl $P; echo "--- rpm -qp --requires:"; rpm -qp --requires $P; echo "--- rpm -qp --provides:"; rpm -qp --provides $P
+[builder@localhost .in]$ P=~/RPM/RPMS/noarch/dzhakishev-hello-1.0-alt1.noarch.rpmm; echo "--- rpm -qpl:"; rpm -qpl $P; echo "--- rpm -qp --requires:"; rpm -qp --rrequires $P; echo "--- rpm -qp --provides:"; rpm -qp --provides $P
+--- rpm -qpl:
+/usr/bin/dzhakishev-hello
+--- rpm -qp --requires:
+/bin/sh
+rpmlib(PayloadIsLzma)
+--- rpm -qp --provides:
+dzhakishev-hello = 1.0-alt1
+[builder@localhost .in]$ 
+logout

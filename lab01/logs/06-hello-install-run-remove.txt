@@ -1,0 +1,15 @@
+rpm -i /usr/src/RPM/RPMS/noarch/dzhakishev-hello-1.0-alt1.noarch.rpm && rpm -q dzhakishev-hello; which dzhakishev-hello; dzhakishev-hello | tee /tmp/actual.txt; diff /.in/expected.txt /tmp/actual.txt && echo "diff: различий нет"; rpm -e dzhakishev-hello; echo "rpm -e rc=$?"; which dzhakishev-hello; echo "which rc=$?"; dzhakishev-hello; echo "запуск после удаления rc=$?"
+[root@localhost .in]# rpm -i /usr/src/RPM/RPMS/noarch/dzhakishev-hello-1.0-alt1.noarch.rpm && rpm -q dzhakishev-hello; which dzhakishev-hello; dzhakishev-hello | tee /tmp/actual.txt; diff /.in/expected.txt /tmp/actual.txt && echo "diff: различий нет"; rpm -e dzhakishev-hello; echo "rpm -e rc=$?"; which dzhakishev-hello; echo "which rc=$?"; dzhakishev-hello; echo "запуск после удаления rc=$?"
+<13>Oct 18 23:48:28 rpm: dzhakishev-hello-1.0-alt1 1792367266 installed
+dzhakishev-hello-1.0-alt1.noarch
+/usr/bin/dzhakishev-hello
+Джакишев, группа КТ-22-04, лабораторная работа №1
+diff: различий нет
+<13>Oct 18 23:48:28 rpm: dzhakishev-hello-1.0-alt1 1792367266 removed
+rpm -e rc=0
+which: no dzhakishev-hello in (/root/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/games)
+which rc=1
+-bash: dzhakishev-hello: command not found
+запуск после удаления rc=127
+[root@localhost .in]# 
+logout
