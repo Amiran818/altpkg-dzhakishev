@@ -1,0 +1,10 @@
+ld-linux-x86-64.so.2()(64bit) >= set:jiids
+rpmlib(SetVersions)
+ld-linux-x86-64.so.2(GLIBC_2.3)(64bit)
+libc.so.6(GLIBC_2.14)(64bit)
+libc.so.6(GLIBC_2.2.5)(64bit)
+libc.so.6(GLIBC_2.3.4)(64bit)
+libc.so.6(GLIBC_2.4)(64bit)
+libc.so.6(GLIBC_2.7)(64bit)
+rtld(GNU_HASH)
+rpmlib(PayloadIsLzma)

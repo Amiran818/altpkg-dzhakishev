@@ -1,0 +1,22 @@
+Name        : libjpeg
+Epoch       : 2
+Version     : 3.0.2
+Release     : alt2.1
+DistTag     : sisyphus+340135.100.1.1
+Architecture: x86_64
+Install Date: Пн 02 фев 2026 11:25:24
+Group       : System/Libraries
+Size        : 635286
+License     : BSD-3-Clause
+Signature   : RSA/SHA512, Пт 09 фев 2024 06:25:50, Key ID ff979dedda2773bb
+Source RPM  : libjpeg-turbo-3.0.2-alt2.1.src.rpm
+Build Date  : Пт 09 фев 2024 06:25:45
+Build Host  : ilyakurdyukov-sisyphus.hasher.altlinux.org
+Relocations : (not relocatable)
+Packager    : Ilya Kurdyukov <ilyakurdyukov@altlinux.org>
+Vendor      : ALT Linux Team
+URL         : https://github.com/libjpeg-turbo/libjpeg-turbo
+Summary     : A library for manipulating JPEG image format files
+Description :
+This package contains a shared library of functions for loading,
+manipulating and saving JPEG format image files.

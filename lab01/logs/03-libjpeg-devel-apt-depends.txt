@@ -1,0 +1,5 @@
+libjpeg-devel-2:3.0.2-alt2.1:sisyphus+340135.100.1.1@1707449145
+  Depends: </usr/lib64/pkgconfig>
+    pkg-config-0.29.2-alt3:p11+349359.100.1.1@1716728182
+  Depends: libturbojpeg = 2:3.0.2-alt2.1:sisyphus+340135.100.1.1
+  Obsoletes: <libturbojpeg-devel>

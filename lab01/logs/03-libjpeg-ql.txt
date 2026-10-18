@@ -1,0 +1,5 @@
+/usr/lib64/libjpeg.so.62
+/usr/lib64/libjpeg.so.62.4.0
+/usr/share/doc/libjpeg-turbo
+/usr/share/doc/libjpeg-turbo/README.ijg
+/usr/share/doc/libjpeg-turbo/README.md

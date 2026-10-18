@@ -1,0 +1,2 @@
+lrwxrwxrwx 1 root root 13 фев  9  2024 /usr/lib64/libjpeg.so -> libjpeg.so.62
+lrwxrwxrwx 1 root root 17 фев  9  2024 /usr/lib64/libturbojpeg.so -> libturbojpeg.so.0
