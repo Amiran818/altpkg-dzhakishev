@@ -1,0 +1,21 @@
+tree ~/RPM/RPMS ~/RPM/SRPMS; rpm -qpi ~/RPM/RPMS/noarch/dzhakishev-null-1.0-alt1.noarch.rpm | grep -E "^(Name|Version|Release|License|Group|Summary)"; echo "--- rpm -qpl:"; rpm -qpl ~/RPM/RPMS/noarch/dzhakishev-null-1.0-alt1.noarch.rpm; echo "файлов в пакете: $(rpm -qpl ~/RPM/RPMS/noarch/dzhakishev-null-1.0-alt1.noarch.rpm | grep -v "(contains no files)" | wc -l)"
+]0;builder@localhost: /.in[?2004h[builder@localhost .in]$ tree ~/RPM/RPMS ~/RPM/SRPMS; rpm -qpi ~/RPM/RPMS/noarch//dzhakishev-null-1.0-alt1.noarch.rpm | grep -E "^(Name|Version|Release|License|Grroup|Summary)"; echo "--- rpm -qpl:"; rpm -qpl ~/RPM/RPMS/noarch/dzhakishev-null--1.0-alt1.noarch.rpm; echo "файлов в пакете: $(rpm -qpl ~/RPM/RPMS/nnoarch/dzhakishev-null-1.0-alt1.noarch.rpm | grep -v "(contains no files)" | wc --l)"
+[?2004l[01;34m/usr/src/RPM/RPMS[0m
+`-- [01;34mnoarch[0m
+    `-- [01;31mdzhakishev-null-1.0-alt1.noarch.rpm[0m
+[01;34m/usr/src/RPM/SRPMS[0m
+`-- [01;31mdzhakishev-null-1.0-alt1.src.rpm[0m
+
+3 directories, 2 files
+[01;31m[KName[m[K        : dzhakishev-null
+[01;31m[KVersion[m[K     : 1.0
+[01;31m[KRelease[m[K     : alt1
+[01;31m[KGroup[m[K       : Development/Other
+[01;31m[KLicense[m[K     : GPL-2.0-or-later
+[01;31m[KSummary[m[K     : Empty package for lab 1 (Dzhakishev A.M.)
+--- rpm -qpl:
+(contains no files)
+(contains no files)
+файлов в пакете: 0
+]0;builder@localhost: /.in[?2004h[builder@localhost .in]$ [?2004l
+logout

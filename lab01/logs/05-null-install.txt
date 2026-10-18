@@ -1,0 +1,9 @@
+rpm -i /usr/src/RPM/RPMS/noarch/dzhakishev-null-1.0-alt1.noarch.rpm; echo "rpm -i rc=$?"; rpm -q dzhakishev-null; which dzhakishev-null; echo "which rc=$?"
+]0;root@localhost: /.in[?2004h[root@localhost .in]# rpm -i /usr/src/RPM/RPMS/noarch/dzhakishev-null-1.0-alt1.noarch.rpm; echo "rpm -i rc=$?"; rpm -q dzhakishev-null; which dzhakishev-null; echo "which rc=$?"
+[?2004l<13>Oct 18 23:47:05 rpm: dzhakishev-null-1.0-alt1 1792367208 installed
+rpm -i rc=0
+dzhakishev-null-1.0-alt1.noarch
+which: no dzhakishev-null in (/root/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/games)
+which rc=1
+]0;root@localhost: /.in[?2004h[root@localhost .in]# [?2004l
+logout
