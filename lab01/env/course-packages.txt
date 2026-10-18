@@ -1,0 +1,15 @@
+rpm
+apt
+apt-repo
+rpm-build
+rpmdevtools
+hasher
+hasher-priv
+git-core
+openssh-clients
+gcc
+make
+tree
+diffutils
+coreutils
+shellcheck

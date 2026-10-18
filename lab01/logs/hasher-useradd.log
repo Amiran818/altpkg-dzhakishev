@@ -1,0 +1,10 @@
+useradd: Warning: missing or non-executable shell '/dev/null'
+useradd: Warning: missing or non-executable shell '/dev/null'
+Добавление пользователя user в группу user_a
+Добавление пользователя user в группу user_b
+Добавление пользователя user в группу hashman
+hasher-useradd: enabling hasher-privd
+Внимание: Отправляется запрос 'systemctl enable hasher-privd.service'.
+Synchronizing state of hasher-privd.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable hasher-privd
+hasher-useradd: starting hasher-privd

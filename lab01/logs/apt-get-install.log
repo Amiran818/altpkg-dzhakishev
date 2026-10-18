@@ -1,0 +1,129 @@
+Чтение списков пакетов...
+Построение дерева зависимостей...
+Последняя версия rpmdevtools уже установлена.
+Последняя версия hasher-priv уже установлена.
+Последняя версия git-core уже установлена.
+Последняя версия gcc уже установлена.
+Последняя версия make уже установлена.
+Последняя версия tree уже установлена.
+Последняя версия openssh-clients уже установлена.
+Последняя версия diffutils уже установлена.
+Следующие дополнительные пакеты будут установлены:
+  autoconf         emacs-base     libtool-common               rpm
+  autoconf-common  gettext-tools  libtool_2.4                  rpm-build-file
+  autoconf_2.71    gnu-config     m4                           rpm-build-perl
+  automake         libasm         patch                        rpm-macros-python
+  automake-common  libbeecrypt7   perl-CPAN-Meta-Requirements  rpm-macros-python3
+  automake_1.16    librpm         perl-DBM                     rpm-macros-systemd
+  bison            librpm7        perl-base                    rpmspec
+  bison-runtime    librpmbuild    perl-diagnostics
+  debugedit        librpmbuild7   perl-threads
+  elfutils         libtool        python3-module-rpm
+Следующие пакеты будут ОБНОВЛЕНЫ:
+  hasher   librpmbuild7  perl-base         python3-module-rpm
+  librpm7  perl-DBM      perl-diagnostics  rpm
+Следующие НОВЫЕ пакеты будут установлены:
+  autoconf         debugedit      librpmbuild                  rpm-build
+  autoconf-common  elfutils       libtool                      rpm-build-file
+  autoconf_2.71    emacs-base     libtool-common               rpm-build-perl
+  automake         gettext-tools  libtool_2.4                  rpm-macros-python
+  automake-common  gnu-config     m4                           rpm-macros-python3
+  automake_1.16    libasm         patch                        rpm-macros-systemd
+  bison            libbeecrypt7   perl-CPAN-Meta-Requirements  rpmspec
+  bison-runtime    librpm         perl-threads                 shellcheck
+8 будет обновлено, 32 новых установлено, 0 пакетов будет удалено и 921 не будет обновлено.
+Необходимо получить 10,3MB/12,5MB архивов.
+После распаковки потребуется дополнительно 45,2MB дискового пространства.
+Получено: 1 http://ftp.altlinux.org p11/branch/x86_64/classic python3-module-rpm 4.13.0.1-alt45:p11+418689.100.2.1@1781016121 [139kB]
+Получено: 2 http://ftp.altlinux.org p11/branch/x86_64/classic librpmbuild7 4.13.0.1-alt45:p11+418689.100.2.1@1781016121 [147kB]
+Получено: 3 http://ftp.altlinux.org p11/branch/x86_64/classic librpm7 4.13.0.1-alt45:p11+418689.100.2.1@1781016121 [353kB]
+Получено: 4 http://ftp.altlinux.org p11/branch/x86_64/classic rpm 4.13.0.1-alt45:p11+418689.100.2.1@1781016121 [437kB]
+Получено: 5 http://ftp.altlinux.org p11/branch/noarch/classic autoconf-common 0.3.2-alt1:sisyphus+264199.100.1.1@1609281515 [3426B]
+Получено: 6 http://ftp.altlinux.org p11/branch/x86_64/classic m4 1.4.19.0.15.bb35-alt1:sisyphus+336930.2000.1.1@1703106995 [190kB]
+Получено: 7 http://ftp.altlinux.org p11/branch/noarch/classic gnu-config 2023.01.21-alt1:sisyphus+313857.100.1.1@1674301506 [29,9kB]
+Получено: 8 http://ftp.altlinux.org p11/branch/noarch/classic autoconf_2.71 2.71-alt3:sisyphus+327753.100.1.1@1692735633 [613kB]
+Получено: 9 http://ftp.altlinux.org p11/branch/noarch/classic autoconf 2:2.71-alt1:sisyphus+325013.300.1.1@1690141700 [5216B]
+Получено: 10 http://ftp.altlinux.org p11/branch/noarch/classic automake-common 0.4.2-alt1:sisyphus+264199.200.1.1@1609281542 [3482B]
+Получено: 11 http://ftp.altlinux.org p11/branch/x86_64/classic perl-threads 1:5.38.4-alt1.p11:p11+415674.400.4.1@1776697020 [63,0kB]
+Получено: 12 http://ftp.altlinux.org p11/branch/noarch/classic automake_1.16 1.16.5-alt1:sisyphus+325642.300.5.1@1690582104 [624kB]
+Получено: 13 http://ftp.altlinux.org p11/branch/noarch/classic automake 1:1.16-alt1:sisyphus+226889.100.2.1@1554763109 [3090B]
+Получено: 14 http://ftp.altlinux.org p11/branch/noarch/classic bison-runtime 3.8.2-alt1:sisyphus+336930.400.1.1@1703105149 [22,4kB]
+Получено: 15 http://ftp.altlinux.org p11/branch/x86_64/classic bison 3.8.2-alt1:sisyphus+336930.400.1.1@1703105149 [729kB]
+Получено: 16 http://ftp.altlinux.org p11/branch/x86_64/classic debugedit 5.0.0.27.6dd2-alt1:sisyphus+347441.100.1.1@1714777408 [46,8kB]
+Получено: 17 http://ftp.altlinux.org p11/branch/x86_64/classic libasm 0.191-alt1:sisyphus+347509.100.1.1@1714859321 [26,4kB]
+Получено: 18 http://ftp.altlinux.org p11/branch/x86_64/classic elfutils 0.191-alt1:sisyphus+347509.100.1.1@1714859321 [428kB]
+Получено: 19 http://ftp.altlinux.org p11/branch/noarch/classic emacs-base 0.0.11-alt1:sisyphus+307458.200.1.1@1664286951 [16,4kB]
+Получено: 20 http://ftp.altlinux.org p11/branch/x86_64/classic gettext-tools 0.21-alt2:sisyphus+328153.300.3.1@1693315380 [1668kB]
+Получено: 21 http://ftp.altlinux.org p11/branch/noarch/classic hasher 1.7.7-alt1:p11+431578.100.5.1@1789233529 [84,3kB]
+Получено: 22 http://ftp.altlinux.org p11/branch/x86_64/classic libbeecrypt7 4.2.1-alt8:p11+348779.500.1.1@1716502739 [86,2kB]
+Получено: 23 http://ftp.altlinux.org p11/branch/x86_64/classic librpm 4.0.4.212-alt1:p11+418655.300.5.1@1782823081 [326kB]
+Получено: 24 http://ftp.altlinux.org p11/branch/x86_64/classic librpmbuild 4.0.4.212-alt1:p11+418655.300.5.1@1782823081 [171kB]
+Получено: 25 http://ftp.altlinux.org p11/branch/x86_64/classic libtool-common 0.2.3-alt1:p11+349000.100.1.1@1716588432 [7119B]
+Получено: 26 http://ftp.altlinux.org p11/branch/x86_64/classic libtool_2.4 2.4.7-alt5:sisyphus+341963.200.3.1@1711659208 [395kB]
+Получено: 27 http://ftp.altlinux.org p11/branch/noarch/classic libtool 3:2.4.2-alt7@1533461531 [2738B]
+Получено: 28 http://ftp.altlinux.org p11/branch/x86_64/classic patch 2.7.6.0.27.7623-alt1:sisyphus+336930.2300.1.1@1703107341 [101kB]
+Получено: 29 http://ftp.altlinux.org p11/branch/noarch/classic perl-CPAN-Meta-Requirements 2.143-alt1:sisyphus+323462.100.1.1@1687421801 [15,4kB]
+Получено: 30 http://ftp.altlinux.org p11/branch/x86_64/classic rpm-build-file 4.26-alt18:p11+349465.100.1.1@1716791164 [142kB]
+Получено: 31 http://ftp.altlinux.org p11/branch/noarch/classic rpm-build-perl 0.85-alt6:sisyphus+335974.100.1.1@1701887945 [37,0kB]
+Получено: 32 http://ftp.altlinux.org p11/branch/noarch/classic rpm-macros-python 0.43.2-alt1:sisyphus+271106.100.1.1@1619868598 [22,3kB]
+Получено: 33 http://ftp.altlinux.org p11/branch/noarch/classic rpm-macros-python3 0.1.29-alt1:p11+398031.540.1.1@1762796334 [22,0kB]
+Получено: 34 http://ftp.altlinux.org p11/branch/noarch/classic rpm-macros-systemd 6-alt2:p11+356646.100.26.1@1729360985 [5995B]
+Получено: 35 http://ftp.altlinux.org p11/branch/x86_64/classic rpmspec 4.13.0.1-alt45:p11+418689.100.2.1@1781016121 [94,6kB]
+Получено: 36 http://ftp.altlinux.org p11/branch/x86_64/classic shellcheck 0.10.0-alt2:p11+387571.600.1.1@1750765404 [3045kB]
+Получено: 37 http://ftp.altlinux.org p11/branch/x86_64/classic rpm-build 4.0.4.212-alt1:p11+418655.300.5.1@1782823081 [182kB]
+Получено 10,3MB за 2s (3918kB/s).
+Совершаем изменения...
+Подготовка...                           ################################# [100%]
+Обновление / установка...
+ 1: perl-base-1:5.38.4-alt1.p11         ################################# [  2%]
+ 2: gnu-config-2023.01.21-alt1          ################################# [  4%]
+ 3: automake-common-0.4.2-alt1          ################################# [  6%]
+ 4: m4-1.4.19.0.15.bb35-alt1            ################################# [  8%]
+ 5: autoconf-common-0.3.2-alt1          ################################# [ 10%]
+ 6: librpm7-4.13.0.1-alt45              ################################# [ 13%]
+ 7: rpm-4.13.0.1-alt45                  ################################# [ 15%]
+ 8: librpmbuild7-4.13.0.1-alt45         ################################# [ 17%]
+ 9: rpmspec-4.13.0.1-alt45              ################################# [ 19%]
+10: rpm-macros-python-0.43.2-alt1       ################################# [ 21%]
+11: rpm-macros-python3-0.1.29-alt1      ################################# [ 23%]
+12: rpm-macros-systemd-6-alt2           ################################# [ 25%]
+13: autoconf_2.71-2.71-alt3             ################################# [ 27%]
+14: autoconf-2:2.71-alt1                ################################# [ 29%]
+15: perl-threads-1:5.38.4-alt1.p11      ################################# [ 31%]
+16: automake_1.16-1.16.5-alt1           ################################# [ 33%]
+17: automake-1:1.16-alt1                ################################# [ 35%]
+18: perl-CPAN-Meta-Requirements-2.143-alt1 ################################# [ 38%]
+19: rpm-build-perl-0.85-alt6            ################################# [ 40%]
+20: rpm-build-file-4.26-alt18           ################################# [ 42%]
+21: patch-2.7.6.0.27.7623-alt1          ################################# [ 44%]
+22: libtool-common-0.2.3-alt1           ################################# [ 46%]
+23: libtool_2.4-2.4.7-alt5              ################################# [ 48%]
+24: libtool-3:2.4.2-alt7                ################################# [ 50%]
+25: libbeecrypt7-4.2.1-alt8             ################################# [ 52%]
+26: librpm-4.0.4.212-alt1               ################################# [ 54%]
+27: librpmbuild-4.0.4.212-alt1          ################################# [ 56%]
+28: emacs-base-0.0.11-alt1              ################################# [ 58%]
+29: gettext-tools-0.21-alt2             ################################# [ 60%]
+30: libasm-0.191-alt1                   ################################# [ 63%]
+31: elfutils-0.191-alt1                 ################################# [ 65%]
+32: debugedit-5.0.0.27.6dd2-alt1        ################################# [ 67%]
+33: bison-runtime-3.8.2-alt1            ################################# [ 69%]
+34: bison-3.8.2-alt1                    ################################# [ 71%]
+35: rpm-build-4.0.4.212-alt1            ################################# [ 73%]
+36: python3-module-rpm-4.13.0.1-alt45   ################################# [ 75%]
+37: hasher-1.7.7-alt1                   ################################# [ 77%]
+38: perl-DBM-1:5.38.4-alt1.p11          ################################# [ 79%]
+39: perl-diagnostics-1:5.38.4-alt1.p11  ################################# [ 81%]
+40: shellcheck-0.10.0-alt2              ################################# [ 83%]
+Очистка / удаление... 
+41: python3-module-rpm-4.13.0.1-alt40   ################################# [ 85%]
+42: librpmbuild7-4.13.0.1-alt40         ################################# [ 88%]
+43: hasher-1.7.4-alt1                   ################################# [ 90%]
+44: rpm-4.13.0.1-alt40                  ################################# [ 92%]
+45: perl-diagnostics-1:5.38.4-alt1      ################################# [ 94%]
+46: perl-DBM-1:5.38.4-alt1              ################################# [ 96%]
+47: perl-base-1:5.38.4-alt1             ################################# [ 98%]
+48: librpm7-4.13.0.1-alt40              ################################# [100%]
+Завершено.
+rebuilding database /var/lib/rpm started
+rebuilding database /var/lib/rpm finished

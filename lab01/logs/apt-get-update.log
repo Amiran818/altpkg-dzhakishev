@@ -1,0 +1,12 @@
+Получено: 1 http://ftp.altlinux.org p11/branch/x86_64 release [4210B]
+Получено: 2 http://ftp.altlinux.org p11/branch/x86_64-i586 release [1665B]
+Получено: 3 http://ftp.altlinux.org p11/branch/noarch release [2831B]
+Получено 8706B за 0s (13,7kB/s).
+Найдено http://ftp.altlinux.org p11/branch/x86_64/classic pkglist
+Найдено http://ftp.altlinux.org p11/branch/x86_64/classic release
+Найдено http://ftp.altlinux.org p11/branch/x86_64-i586/classic pkglist
+Найдено http://ftp.altlinux.org p11/branch/x86_64-i586/classic release
+Найдено http://ftp.altlinux.org p11/branch/noarch/classic pkglist
+Найдено http://ftp.altlinux.org p11/branch/noarch/classic release
+Чтение списков пакетов...
+Построение дерева зависимостей...
