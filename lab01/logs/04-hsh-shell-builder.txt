@@ -1,0 +1,18 @@
+id; id -un; echo HOME=$HOME; tree -L 1 ~/RPM; which tree nano; echo "which rc=$?"
+]0;builder@localhost: /.in[?2004h[builder@localhost .in]$ id; id -un; echo HOME=$HOME; tree -L 1 ~/RPM; which treee nano; echo "which rc=$?"
+[?2004luid=1002(builder) gid=1002(builder) groups=1002(builder)
+builder
+HOME=/usr/src
+[01;34m/usr/src/RPM[0m
+|-- [01;34mBUILD[0m
+|-- [01;34mRPMS[0m
+|-- [01;34mSOURCES[0m
+|-- [01;34mSPECS[0m
+`-- [01;34mSRPMS[0m
+
+6 directories, 0 files
+/usr/bin/tree
+/usr/bin/nano
+which rc=0
+]0;builder@localhost: /.in[?2004h[builder@localhost .in]$ [?2004l
+logout

@@ -1,0 +1,8 @@
+id; id -un; echo HOME=$HOME; pwd
+]0;root@localhost: /.in[?2004h[root@localhost .in]# id; id -un; echo HOME=$HOME; pwd
+[?2004luid=0(root) gid=0(root) groups=0(root)
+root
+HOME=/root
+/.in
+]0;root@localhost: /.in[?2004h[root@localhost .in]# [?2004l
+logout
