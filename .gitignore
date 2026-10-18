@@ -1,0 +1,22 @@
+# артефакты сборки RPM
+*.rpm
+*.src.rpm
+# архивы исходных текстов
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.zip
+# каталоги дерева сборки RPM
+BUILD/
+BUILDROOT/
+RPMS/
+SRPMS/
+rpmbuild/
+RPM/
+# локальное окружение hasher
+hasher/
+# временные файлы редакторов
+*~
+*.swp
