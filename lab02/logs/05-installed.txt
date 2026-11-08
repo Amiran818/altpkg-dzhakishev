@@ -1,0 +1,2 @@
+dzhakishev-show-1.0-alt1.x86_64
+/usr/bin/Show
