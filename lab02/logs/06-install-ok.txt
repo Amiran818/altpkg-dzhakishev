@@ -1,0 +1,4 @@
+<13>Nov  8 23:22:12 rpm: dzhakishev-show-1.0-alt1 1794179815 installed
+rpm -i rc=0
+dzhakishev-show-1.0-alt1.x86_64
+libncurses6-6.5.20250705-alt1.x86_64

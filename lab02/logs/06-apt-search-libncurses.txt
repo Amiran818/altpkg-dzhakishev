@@ -1,0 +1,27 @@
+i586-libncurses6 - Ncurses ncurses base library
+i586-libncurses++6 - Ncurses ncurses++ C++ bindings library
+i586-libncurses - Ncurses ncurses base library legacy
+i586-libncurses++ - Ncurses ncurses++ C++ bindings library legacy
+i586-libncursesw6 - Ncurses ncursesw base library (widechar support) library
+i586-libncurses++w6 - Ncurses ncurses++w C++ bindings (widechar support) library
+i586-libncursesw - Ncurses ncursesw base (widechar support) library legacy
+i586-libncurses++w - Ncurses ncurses++w C++ bindings (widechar support) library legacy
+i586-libncursesxx - C++ bindings for ncurses library
+libncurses6 - Ncurses ncurses base library
+libncurses++6 - Ncurses ncurses++ C++ bindings library
+libncurses-devel - Ncurses ncurses base library development environment
+libncurses++-devel - Ncurses ncurses++ C++ bindings library development environment
+libncurses-devel-static - Ncurses ncurses base library static development environment
+libncurses++-devel-static - Ncurses ncurses++ C++ bindings library static development environment
+libncurses - Ncurses ncurses base library legacy
+libncurses++ - Ncurses ncurses++ C++ bindings library legacy
+libncursesw6 - Ncurses ncursesw base library (widechar support) library
+libncurses++w6 - Ncurses ncurses++w C++ bindings (widechar support) library
+libncursesw-devel - Ncurses ncursesw base (widechar support) library development environment
+libncurses++w-devel - Ncurses ncurses++w C++ bindings (widechar support) library development environment
+libncurses++w-devel-static - Ncurses ncurses++w C++ bindings (widechar support) library static development environment
+libncursesw - Ncurses ncursesw base (widechar support) library legacy
+libncurses++w - Ncurses ncurses++w C++ bindings (widechar support) library legacy
+libncursesxx - C++ bindings for ncurses library
+libncursesxx-devel - Development part of libncursesxx
+libncursesxx-devel-static - Static libraries for libncursesxx
