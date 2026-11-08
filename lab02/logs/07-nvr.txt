@@ -1,0 +1,3 @@
+dzhakishev-show-1.0-alt1.src.rpm              dzhakishev-show 1.0 alt1
+dzhakishev-show-1.0-alt1.x86_64.rpm           dzhakishev-show 1.0 alt1
+dzhakishev-show-debuginfo-1.0-alt1.x86_64.rpm dzhakishev-show-debuginfo 1.0 alt1

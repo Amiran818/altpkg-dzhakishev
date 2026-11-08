@@ -1,0 +1,6 @@
+/usr/lib/debug/.build-id/b9
+/usr/lib/debug/.build-id/b9/04182226e1d9fb4378db8dd57174cd8b20474b
+/usr/lib/debug/.build-id/b9/04182226e1d9fb4378db8dd57174cd8b20474b.debug
+/usr/lib/debug/usr/bin/Show.debug
+/usr/src/debug/dzhakishev-show-1.0
+/usr/src/debug/dzhakishev-show-1.0/show.c

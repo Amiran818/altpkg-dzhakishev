@@ -1,0 +1,2 @@
+usr/bin/Show:                     ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+usr/lib/debug/usr/bin/Show.debug: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter \004, for GNU/Linux 3.2.0, with debug_info, not stripped
