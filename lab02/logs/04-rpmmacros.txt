@@ -1,0 +1,1 @@
+~/hasher-lab02/chroot/usr/src/.rpmmacros:%packager Amir Dzhakishev <dzhakishev@altlinux.org>
