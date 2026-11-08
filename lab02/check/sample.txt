@@ -1,0 +1,60 @@
+Lab 2 control file: Dzhakishev A.M., group KT-22-04
+002: ordinary line of the control text file
+003: ordinary line of the control text file
+004: ordinary line of the control text file
+005: this line is intentionally very long to check that Show truncates lines wider than the window xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx END
+006: ordinary line of the control text file
+007:	tab	separated	fields
+008: ordinary line of the control text file
+009: ordinary line of the control text file
+010: ordinary line of the control text file
+011: ordinary line of the control text file
+012: ordinary line of the control text file
+013: ordinary line of the control text file
+014: ordinary line of the control text file
+015: this line is intentionally very long to check that Show truncates lines wider than the window xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx END
+016: ordinary line of the control text file
+017:	tab	separated	fields
+018: ordinary line of the control text file
+019: ordinary line of the control text file
+020: ordinary line of the control text file
+021: ordinary line of the control text file
+022: ordinary line of the control text file
+023: ordinary line of the control text file
+024: ordinary line of the control text file
+025: this line is intentionally very long to check that Show truncates lines wider than the window xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx END
+026: ordinary line of the control text file
+027:	tab	separated	fields
+028: ordinary line of the control text file
+029: ordinary line of the control text file
+030: ordinary line of the control text file
+031: ordinary line of the control text file
+032: ordinary line of the control text file
+033: ordinary line of the control text file
+034: ordinary line of the control text file
+035: this line is intentionally very long to check that Show truncates lines wider than the window xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx END
+036: ordinary line of the control text file
+037:	tab	separated	fields
+038: ordinary line of the control text file
+039: ordinary line of the control text file
+040: ordinary line of the control text file
+041: ordinary line of the control text file
+042: ordinary line of the control text file
+043: ordinary line of the control text file
+044: ordinary line of the control text file
+045: this line is intentionally very long to check that Show truncates lines wider than the window xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx END
+046: ordinary line of the control text file
+047:	tab	separated	fields
+048: ordinary line of the control text file
+049: ordinary line of the control text file
+050: ordinary line of the control text file
+051: ordinary line of the control text file
+052: ordinary line of the control text file
+053: ordinary line of the control text file
+054: ordinary line of the control text file
+055: this line is intentionally very long to check that Show truncates lines wider than the window xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx END
+056: ordinary line of the control text file
+057:	tab	separated	fields
+058: ordinary line of the control text file
+059: ordinary line of the control text file
+060: last line of the file

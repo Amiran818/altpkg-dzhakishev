@@ -1,0 +1,4 @@
+show.c:8:10: fatal error: curses.h: Нет такого файла или каталога
+    8 | #include <curses.h>
+      |          ^~~~~~~~~~
+compilation terminated.

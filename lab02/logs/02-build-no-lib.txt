@@ -1,0 +1,24 @@
+ld: /tmp/.private/user/cc7veTU1.o: предупреждение: перемещение указывает на «COLS» из раздела только для чтения «.text»
+ld: /tmp/.private/user/cc7veTU1.o: в функции «put_line»:
+show.c:(.text+0x2b5): undefined reference to `wmove'
+ld: show.c:(.text+0x2d3): undefined reference to `waddch'
+ld: show.c:(.text+0x303): undefined reference to `waddch'
+ld: /tmp/.private/user/cc7veTU1.o: в функции «main»:
+show.c:(.text+0x3c8): undefined reference to `initscr'
+ld: show.c:(.text+0x3cd): undefined reference to `noecho'
+ld: show.c:(.text+0x3d2): undefined reference to `cbreak'
+ld: show.c:(.text+0x3dc): undefined reference to `curs_set'
+ld: show.c:(.text+0x408): undefined reference to `mvprintw'
+ld: show.c:(.text+0x40f): undefined reference to `stdscr'
+ld: show.c:(.text+0x417): undefined reference to `wrefresh'
+ld: show.c:(.text+0x41d): undefined reference to `LINES'
+ld: show.c:(.text+0x429): undefined reference to `COLS'
+ld: show.c:(.text+0x443): undefined reference to `newwin'
+ld: show.c:(.text+0x458): undefined reference to `keypad'
+ld: show.c:(.text+0x464): undefined reference to `werase'
+ld: show.c:(.text+0x4c5): undefined reference to `wrefresh'
+ld: show.c:(.text+0x4d1): undefined reference to `wgetch'
+ld: show.c:(.text+0x51d): undefined reference to `delwin'
+ld: show.c:(.text+0x522): undefined reference to `endwin'
+ld: предупреждение: создаётся DT_TEXTREL в PIE
+collect2: error: ld returned 1 exit status
