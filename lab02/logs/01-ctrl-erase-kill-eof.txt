@@ -1,0 +1,5 @@
+hello wor   pal
+abc def       xyz
+hello pal
+xyz
+cat rc=0
