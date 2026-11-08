@@ -1,0 +1,4 @@
+Name        : dzhakishev-show
+Version     : 1.0
+Release     : alt1
+Packager    : Amir Dzhakishev <dzhakishev@altlinux.org>
