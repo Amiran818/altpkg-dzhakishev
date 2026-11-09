@@ -1,0 +1,7 @@
+db85dd121c428b04e78da6093e1a48fcf2a877fe	HEAD
+db85dd121c428b04e78da6093e1a48fcf2a877fe	refs/heads/master
+14e8ed78da7ca0afe0bcca162e50117b1b95bc3a	refs/heads/srpms
+ba187ef40d850586b8208ef319fc272b640c1835	refs/tags/1.0-alt1
+14e8ed78da7ca0afe0bcca162e50117b1b95bc3a	refs/tags/1.0-alt1^{}
+e47af7186163418ec5029965676b11a8625d0116	refs/tags/1.1-alt1
+db85dd121c428b04e78da6093e1a48fcf2a877fe	refs/tags/1.1-alt1^{}

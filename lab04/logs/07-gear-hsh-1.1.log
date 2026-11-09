@@ -1,0 +1,47 @@
+<86>Nov  9 19:45:20 userdel[40626]: delete user 'rooter'
+<86>Nov  9 19:45:20 groupadd[40634]: group added to /etc/group: name=rooter, GID=1001
+<86>Nov  9 19:45:20 groupadd[40634]: group added to /etc/gshadow: name=rooter
+<86>Nov  9 19:45:20 groupadd[40634]: new group: name=rooter, GID=1001
+<86>Nov  9 19:45:20 useradd[40640]: new user: name=rooter, UID=1001, GID=1001, home=/root, shell=/bin/bash, from=none
+<86>Nov  9 19:45:20 userdel[40650]: delete user 'builder'
+<86>Nov  9 19:45:20 userdel[40650]: removed group 'builder' owned by 'builder'
+<86>Nov  9 19:45:20 userdel[40650]: removed shadow group 'builder' owned by 'builder'
+<86>Nov  9 19:45:20 groupadd[40657]: group added to /etc/group: name=builder, GID=1002
+<86>Nov  9 19:45:20 groupadd[40657]: group added to /etc/gshadow: name=builder
+<86>Nov  9 19:45:20 groupadd[40657]: new group: name=builder, GID=1002
+<86>Nov  9 19:45:20 useradd[40663]: new user: name=builder, UID=1002, GID=1002, home=/usr/src, shell=/bin/bash, from=none
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/srpm/dzhakishev-todo-1.1-alt1.src.rpm (w1.gzdio)
+Installing dzhakishev-todo-1.1-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%install): /bin/sh -e /usr/src/tmp/rpmb-tmp.3QZwuD
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/dzhakishev-todo-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/dzhakishev-todo-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ install -D -m 0755 /usr/src/RPM/SOURCES/dzh-todo /usr/src/tmp/dzhakishev-todo-buildroot/usr/bin/dzh-todo
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/dzhakishev-todo-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/dzhakishev-todo-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/dzhakishev-todo-buildroot/ (default)
+Compressing files in /usr/src/tmp/dzhakishev-todo-buildroot (auto)
+Verifying ELF objects in /usr/src/tmp/dzhakishev-todo-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/dzhakishev-todo-buildroot
+Processing files: dzhakishev-todo-1.1-alt1
+Finding Provides (using /usr/lib/rpm/find-provides)
+Executing(+autodep): /bin/sh -e /usr/src/tmp/rpmb-autodep.dqQkvm
+find-provides: running scripts (debuginfo,lib,pam,perl,pkgconfig,python,python3,shell,sysusers)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Executing(+autodep): /bin/sh -e /usr/src/tmp/rpmb-autodep.tfgWbe
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: FINDPACKAGE-COMMANDS: cat clear dialog grep mkdir mktemp sed tr
+Requires: /bin/sh, coreutils, dialog, grep, sed, termutils
+Wrote: /usr/src/RPM/SRPMS/dzhakishev-todo-1.1-alt1.src.rpm (w2.lzdio)
+Wrote: /usr/src/RPM/RPMS/noarch/dzhakishev-todo-1.1-alt1.noarch.rpm (w2.lzdio)
+0.85user 0.51system 0:02.57elapsed 53%CPU (0avgtext+0avgdata 8372maxresident)k
+8inputs+264outputs (0major+95931minor)pagefaults 0swaps

@@ -1,0 +1,57 @@
+diff --git a/dzh-todo b/dzh-todo
+index ee76dff..d33abbb 100755
+--- a/dzh-todo
++++ b/dzh-todo
+@@ -6,9 +6,10 @@
+ #   dzh-todo add ТЕКСТ     добавить задачу
+ #   dzh-todo list          вывести список: невыполненные и выполненные
+ #   dzh-todo done N        отметить задачу N выполненной
++#   dzh-todo count         число невыполненных задач
+ # Без параметров - диалоговый режим (утилита dialog).
+ 
+-VERSION=1.0
++VERSION=1.1
+ CONF_DIR=${XDG_CONFIG_HOME:-$HOME/.config}/dzh-todo
+ DATA=$CONF_DIR/tasks          # строки вида «0|текст» или «1|текст»
+ TITLE="Список задач dzh-todo $VERSION"
+@@ -44,6 +45,11 @@ done_task() {
+     echo "выполнено: $1"
+ }
+ 
++count_tasks() {
++    # grep -c печатает 0 и при отсутствии совпадений
++    grep -c '^0|' "$DATA" || true
++}
++
+ # ---------- диалоговый режим ----------
+ dialog_mode() {
+     tmp=$(mktemp) || exit 1
+@@ -87,6 +93,7 @@ case "${1:-}" in
+     add)   shift; add_task "$*" ;;
+     list)  list_tasks ;;
+     "done")  done_task "${2:-}" ;;
++    count) count_tasks ;;
+     -v|--version) echo "dzh-todo $VERSION" ;;
+-    *)     echo "Использование: dzh-todo [add ТЕКСТ | list | done N]" >&2; exit 1 ;;
++    *)     echo "Использование: dzh-todo [add ТЕКСТ | list | done N | count]" >&2; exit 1 ;;
+ esac
+diff --git a/dzhakishev-todo.spec b/dzhakishev-todo.spec
+index 40589af..61790f7 100644
+--- a/dzhakishev-todo.spec
++++ b/dzhakishev-todo.spec
+@@ -1,5 +1,5 @@
+ Name: dzhakishev-todo
+-Version: 1.0
++Version: 1.1
+ Release: alt1
+ 
+ Summary: To-do list shell script with dialog interface (lab 4)
+@@ -22,5 +22,8 @@ install -D -m 0755 %SOURCE0 %buildroot%_bindir/dzh-todo
+ %_bindir/dzh-todo
+ 
+ %changelog
++* Mon Nov 09 2026 Amir Dzhakishev <dzhakishev@altlinux.org> 1.1-alt1
++- Added "count" command: number of unfinished tasks.
++
+ * Mon Nov 09 2026 Amir Dzhakishev <dzhakishev@altlinux.org> 1.0-alt1
+ - Initial build

@@ -1,0 +1,5 @@
+Amir Dzhakishev <dzhakishev@altlinux.org>
+1.1-alt1
+
+- Added "count" command: number of unfinished tasks.
+
