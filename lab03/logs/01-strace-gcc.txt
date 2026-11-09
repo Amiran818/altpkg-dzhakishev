@@ -1,0 +1,31 @@
+5691  execve("/usr/bin/gcc", ["gcc", "-o", "dzhargs", "main.c", "output.c", "counter.c"], 0x7ffe903ec650 /* 61 vars */) = 0
+5691  execve("/usr/bin/x86_64-alt-linux-gcc", ["x86_64-alt-linux-gcc", "-o", "dzhargs", "main.c", "output.c", "counter.c"], 0x7fff1bb78d10 /* 61 vars */) = 0
+5693  execve("/usr/lib64/gcc/x86_64-alt-linux/13/cc1", ["/usr/lib64/gcc/x86_64-alt-linux/"..., "-quiet", "main.c", "-fstack-protector-strong", "-fstack-clash-protection", "-quiet", "-dumpdir", "dzhargs-", "-dumpbase", "main.c", "-dumpbase-ext", ".c", "-mtune=generic", "-march=x86-64", "-o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = 0
+5693  +++ exited with 0 +++
+5691  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5693, si_uid=1000, si_status=0, si_utime=1 /* 0.01 s */, si_stime=4 /* 0.04 s */} ---
+5695  execve("/home/user/bin/as", ["as", "--64", "-o", "/tmp/.private/user/cckA9B4Z.o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = -1 ENOENT (Нет такого файла или каталога)
+5695  execve("/usr/bin/as", ["as", "--64", "-o", "/tmp/.private/user/cckA9B4Z.o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = 0
+5695  +++ exited with 0 +++
+5691  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5695, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+5696  execve("/usr/lib64/gcc/x86_64-alt-linux/13/cc1", ["/usr/lib64/gcc/x86_64-alt-linux/"..., "-quiet", "output.c", "-fstack-protector-strong", "-fstack-clash-protection", "-quiet", "-dumpdir", "dzhargs-", "-dumpbase", "output.c", "-dumpbase-ext", ".c", "-mtune=generic", "-march=x86-64", "-o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = 0
+5696  +++ exited with 0 +++
+5691  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5696, si_uid=1000, si_status=0, si_utime=1 /* 0.01 s */, si_stime=4 /* 0.04 s */} ---
+5698  execve("/home/user/bin/as", ["as", "--64", "-o", "/tmp/.private/user/ccPpbf4k.o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = -1 ENOENT (Нет такого файла или каталога)
+5698  execve("/usr/bin/as", ["as", "--64", "-o", "/tmp/.private/user/ccPpbf4k.o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = 0
+5698  +++ exited with 0 +++
+5691  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5698, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+5699  execve("/usr/lib64/gcc/x86_64-alt-linux/13/cc1", ["/usr/lib64/gcc/x86_64-alt-linux/"..., "-quiet", "counter.c", "-fstack-protector-strong", "-fstack-clash-protection", "-quiet", "-dumpdir", "dzhargs-", "-dumpbase", "counter.c", "-dumpbase-ext", ".c", "-mtune=generic", "-march=x86-64", "-o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = 0
+5699  +++ exited with 0 +++
+5691  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5699, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+5700  execve("/home/user/bin/as", ["as", "--64", "-o", "/tmp/.private/user/ccwQxJCq.o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = -1 ENOENT (Нет такого файла или каталога)
+5700  execve("/usr/bin/as", ["as", "--64", "-o", "/tmp/.private/user/ccwQxJCq.o", "/tmp/.private/user/cc8PBjE8.s"], 0x3ad47fa0 /* 64 vars */) = 0
+5700  +++ exited with 0 +++
+5691  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5700, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+5701  execve("/usr/lib64/gcc/x86_64-alt-linux/13/collect2", ["/usr/lib64/gcc/x86_64-alt-linux/"..., "-plugin", "/usr/lib64/gcc/x86_64-alt-linux/"..., "-plugin-opt=/usr/lib64/gcc/x86_6"..., "-plugin-opt=-fresolution=/tmp/.p"..., "-plugin-opt=-pass-through=-lgcc", "-plugin-opt=-pass-through=-lgcc_"..., "-plugin-opt=-pass-through=-lc", "-plugin-opt=-pass-through=-lgcc", "-plugin-opt=-pass-through=-lgcc_"..., "--build-id", "--no-add-needed", "--eh-frame-hdr", "--hash-style=gnu", "-m", "elf_x86_64", "--as-needed", "-dynamic-linker", "/lib64/ld-linux-x86-64.so.2", "-pie", "-z", "now", "-o", "dzhargs", "/usr/lib64/gcc/x86_64-alt-linux/"..., "/usr/lib64/gcc/x86_64-alt-linux/"..., "/usr/lib64/gcc/x86_64-alt-linux/"..., "-L/usr/lib64/gcc/x86_64-alt-linu"..., "-L/usr/lib64/gcc/x86_64-alt-linu"..., "-L/lib/../lib64", "-L/usr/lib/../lib64", "-L/usr/lib64/gcc/x86_64-alt-linu"..., ...], 0x3ad49250 /* 66 vars */) = 0
+5702  execve("/usr/bin/ld", ["/usr/bin/ld", "-plugin", "/usr/lib64/gcc/x86_64-alt-linux/"..., "-plugin-opt=/usr/lib64/gcc/x86_6"..., "-plugin-opt=-fresolution=/tmp/.p"..., "-plugin-opt=-pass-through=-lgcc", "-plugin-opt=-pass-through=-lgcc_"..., "-plugin-opt=-pass-through=-lc", "-plugin-opt=-pass-through=-lgcc", "-plugin-opt=-pass-through=-lgcc_"..., "--build-id", "--no-add-needed", "--eh-frame-hdr", "--hash-style=gnu", "-m", "elf_x86_64", "--as-needed", "-dynamic-linker", "/lib64/ld-linux-x86-64.so.2", "-pie", "-z", "now", "-o", "dzhargs", "/usr/lib64/gcc/x86_64-alt-linux/"..., "/usr/lib64/gcc/x86_64-alt-linux/"..., "/usr/lib64/gcc/x86_64-alt-linux/"..., "-L/usr/lib64/gcc/x86_64-alt-linu"..., "-L/usr/lib64/gcc/x86_64-alt-linu"..., "-L/lib/../lib64", "-L/usr/lib/../lib64", "-L/usr/lib64/gcc/x86_64-alt-linu"..., ...], 0x7ffe6a21ae30 /* 66 vars */) = 0
+5702  execve("/usr/bin/ld.default", ["ld", "-plugin", "/usr/lib64/gcc/x86_64-alt-linux/"..., "-plugin-opt=/usr/lib64/gcc/x86_6"..., "-plugin-opt=-fresolution=/tmp/.p"..., "-plugin-opt=-pass-through=-lgcc", "-plugin-opt=-pass-through=-lgcc_"..., "-plugin-opt=-pass-through=-lc", "-plugin-opt=-pass-through=-lgcc", "-plugin-opt=-pass-through=-lgcc_"..., "--build-id", "--no-add-needed", "--eh-frame-hdr", "--hash-style=gnu", "-m", "elf_x86_64", "--as-needed", "-dynamic-linker", "/lib64/ld-linux-x86-64.so.2", "-pie", "-z", "now", "-o", "dzhargs", "/usr/lib64/gcc/x86_64-alt-linux/"..., "/usr/lib64/gcc/x86_64-alt-linux/"..., "/usr/lib64/gcc/x86_64-alt-linux/"..., "-L/usr/lib64/gcc/x86_64-alt-linu"..., "-L/usr/lib64/gcc/x86_64-alt-linu"..., "-L/lib/../lib64", "-L/usr/lib/../lib64", "-L/usr/lib64/gcc/x86_64-alt-linu"..., ...], 0x55d6e82c2cc0 /* 65 vars */) = 0
+5702  +++ exited with 0 +++
+5701  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5702, si_uid=1000, si_status=0, si_utime=1 /* 0.01 s */, si_stime=1 /* 0.01 s */} ---
+5701  +++ exited with 0 +++
+5691  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5701, si_uid=1000, si_status=0, si_utime=0, si_stime=2 /* 0.02 s */} ---
+5691  +++ exited with 0 +++

@@ -23,3 +23,9 @@ hasher/
 # продукты сборки lab02
 lab02/sources/Show
 *.o
+# продукты сборки lab03
+lab03/sources/dzhargs*
+lab03/sources/pic/
+lab03/sources/*.a
+lab03/sources/*.so
+lab03/sources/*.so.*

@@ -1,0 +1,5 @@
+ld: output.o: в функции «twice»:
+output.c:(.text+0x0): повторное определение «twice»; main.o:main.c:(.text+0x0): здесь первое определение
+ld: counter.o: в функции «twice»:
+counter.c:(.text+0x0): повторное определение «twice»; main.o:main.c:(.text+0x0): здесь первое определение
+collect2: error: ld returned 1 exit status

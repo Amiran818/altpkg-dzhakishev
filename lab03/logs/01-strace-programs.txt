@@ -1,0 +1,11 @@
+     1	/usr/bin/gcc
+     2	/usr/bin/x86_64-alt-linux-gcc
+     3	/usr/lib64/gcc/x86_64-alt-linux/13/cc1
+     4	/usr/bin/as
+     5	/usr/lib64/gcc/x86_64-alt-linux/13/cc1
+     6	/usr/bin/as
+     7	/usr/lib64/gcc/x86_64-alt-linux/13/cc1
+     8	/usr/bin/as
+     9	/usr/lib64/gcc/x86_64-alt-linux/13/collect2
+    10	/usr/bin/ld
+    11	/usr/bin/ld.default
