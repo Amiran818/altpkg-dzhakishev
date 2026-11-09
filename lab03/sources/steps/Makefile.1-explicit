@@ -1,0 +1,15 @@
+# 1) раздельные правила для каждого модуля
+CC = gcc
+CFLAGS = -O2 -Wall
+
+dzhargs: main.o output.o counter.o
+	$(CC) -o dzhargs main.o output.o counter.o
+
+main.o: main.c
+	$(CC) -c $(CFLAGS) main.c -o main.o
+
+output.o: output.c
+	$(CC) -c $(CFLAGS) output.c -o output.o
+
+counter.o: counter.c
+	$(CC) -c $(CFLAGS) counter.c -o counter.o

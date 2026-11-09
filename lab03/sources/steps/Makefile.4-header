@@ -1,0 +1,12 @@
+# 4) зависимость объектных файлов от заголовочного файла
+CC = gcc
+CFLAGS = -O2 -Wall
+OBJS = main.o output.o counter.o
+
+dzhargs: $(OBJS)
+	$(CC) -o $@ $^
+
+%.o: %.c
+	$(CC) -c $(CFLAGS) $< -o $@
+
+$(OBJS): prog.h

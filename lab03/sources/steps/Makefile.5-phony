@@ -1,0 +1,21 @@
+# 5) фиктивные цели очистки и переменные перечней удаляемых файлов
+CC = gcc
+CFLAGS = -O2 -Wall
+OBJS = main.o output.o counter.o
+GENERATED = dzhargs
+
+dzhargs: $(OBJS)
+	$(CC) -o $@ $^
+
+%.o: %.c
+	$(CC) -c $(CFLAGS) $< -o $@
+
+$(OBJS): prog.h
+
+clean:
+	rm -f $(OBJS)
+
+distclean: clean
+	rm -f $(GENERATED)
+
+.PHONY: clean distclean

@@ -1,0 +1,1 @@
+rm -f main.o output.o counter.o

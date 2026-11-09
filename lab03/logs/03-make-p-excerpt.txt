@@ -1,0 +1,18 @@
+# выдержка из make -p -f steps/Makefile.3-builtin
+ARFLAGS = -rv
+AR = ar
+LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
+COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+CFLAGS = -O2 -Wall
+OUTPUT_OPTION = -o $@
+CC = gcc
+
+
+%.o: %.c
+#  способ, который следует применить (встроенные):
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+(%): %
+#  способ, который следует применить (встроенные):
+	$(AR) $(ARFLAGS) $@ $<
+

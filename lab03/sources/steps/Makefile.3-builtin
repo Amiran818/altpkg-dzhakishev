@@ -1,0 +1,7 @@
+# 3) без шаблонного правила: работает встроенное правило %.o: %.c
+CC = gcc
+CFLAGS = -O2 -Wall
+OBJS = main.o output.o counter.o
+
+dzhargs: $(OBJS)
+	$(CC) -o $@ $^

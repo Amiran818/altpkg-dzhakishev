@@ -1,0 +1,4 @@
+gcc -c -O0 -g -DDEBUG main.c -o main.o
+gcc -c -O0 -g -DDEBUG output.c -o output.o
+gcc -c -O0 -g -DDEBUG counter.c -o counter.o
+gcc -o dzhargs main.o output.o counter.o

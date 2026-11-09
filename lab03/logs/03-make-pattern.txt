@@ -1,0 +1,4 @@
+gcc -c -O2 -Wall main.c -o main.o
+gcc -c -O2 -Wall output.c -o output.o
+gcc -c -O2 -Wall counter.c -o counter.o
+gcc -o dzhargs main.o output.o counter.o
