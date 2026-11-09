@@ -1,0 +1,7 @@
+/bin/sh
+coreutils
+dialog
+grep
+sed
+termutils
+rpmlib(PayloadIsLzma)

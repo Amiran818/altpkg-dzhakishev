@@ -1,0 +1,3 @@
+error: Failed dependencies:
+	dialog is needed by dzhakishev-todo-1.0-alt1.noarch
+rpm -i rc=1

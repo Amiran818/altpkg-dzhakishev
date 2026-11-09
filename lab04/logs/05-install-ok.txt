@@ -1,0 +1,2 @@
+<13>Nov  9 19:41:19 rpm: dzhakishev-todo-1.0-alt1 1794253169 installed
+rpm -i rc=0

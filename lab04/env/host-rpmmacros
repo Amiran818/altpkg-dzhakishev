@@ -1,0 +1,5 @@
+%_topdir	%homedir/RPM
+#%_tmppath	%homedir/tmp
+
+%packager	Amir Dzhakishev <dzhakishev@altlinux.org>
+# %_gpg_name	joe@email.address

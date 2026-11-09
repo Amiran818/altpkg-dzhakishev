@@ -1,0 +1,8 @@
+cat     /usr/bin/cat       coreutils
+clear   /usr/bin/clear     termutils
+dialog  /usr/bin/dialog    dialog
+grep    /usr/bin/grep      grep
+mkdir   /usr/bin/mkdir     coreutils
+mktemp  /usr/bin/mktemp    coreutils
+sed     /usr/bin/sed       sed
+tr      /usr/bin/tr        coreutils

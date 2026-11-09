@@ -1,0 +1,3 @@
+882:Finding Requires (using /usr/lib/rpm/find-requires)
+885:find-requires: FINDPACKAGE-COMMANDS: cat clear dialog grep mkdir mktemp sed tr
+886:Requires: /bin/sh, coreutils, dialog, grep, sed, termutils
