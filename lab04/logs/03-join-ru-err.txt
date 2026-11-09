@@ -1,0 +1,3 @@
+join: logs/03-user-sorted-ru.txt:56: is not sorted:     298 root
+join: logs/03-comm-sorted-ru.txt:56: is not sorted:     298 kworker/R-scsi_tmf_0
+join: входные данные не отсортированы

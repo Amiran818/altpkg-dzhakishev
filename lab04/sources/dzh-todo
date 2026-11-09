@@ -1,0 +1,92 @@
+#!/bin/sh
+# dzh-todo - список задач в каталоге настроек пользователя
+# Лабораторная работа 4, Джакишев А.М., группа КТ-22-04.
+#
+# Неинтерактивный режим (для сценариев и проверки):
+#   dzh-todo add ТЕКСТ     добавить задачу
+#   dzh-todo list          вывести список: невыполненные и выполненные
+#   dzh-todo done N        отметить задачу N выполненной
+# Без параметров - диалоговый режим (утилита dialog).
+
+VERSION=1.0
+CONF_DIR=${XDG_CONFIG_HOME:-$HOME/.config}/dzh-todo
+DATA=$CONF_DIR/tasks          # строки вида «0|текст» или «1|текст»
+TITLE="Список задач dzh-todo $VERSION"
+
+init() {
+    # при первом запуске создать каталог настроек и файл данных
+    mkdir -p "$CONF_DIR" || exit 1
+    [ -f "$DATA" ] || : > "$DATA"
+}
+
+add_task() {
+    [ -n "$1" ] || { echo "dzh-todo: пустая задача" >&2; return 1; }
+    printf '0|%s\n' "$1" >> "$DATA"
+    echo "добавлено: $1"
+}
+
+list_tasks() {
+    echo "Невыполненные:"
+    grep -n '^0|' "$DATA" | sed -E 's/^([0-9]+):0\|/  \1. /'
+    echo "Выполненные:"
+    grep -n '^1|' "$DATA" | sed -E 's/^([0-9]+):1\|/  \1. /'
+}
+
+done_task() {
+    case "$1" in
+        ''|*[!0-9]*) echo "dzh-todo: номер задачи должен быть числом" >&2; return 1 ;;
+    esac
+    if ! sed -n "${1}p" "$DATA" | grep -q '^0|'; then
+        echo "dzh-todo: нет невыполненной задачи $1" >&2
+        return 1
+    fi
+    sed -i -E "${1}s/^0\|/1|/" "$DATA"
+    echo "выполнено: $1"
+}
+
+# ---------- диалоговый режим ----------
+dialog_mode() {
+    tmp=$(mktemp) || exit 1
+    trap 'rm -f "$tmp"' EXIT
+    trap 'exit 130' INT
+    trap 'exit 143' TERM
+    while :; do
+        # dialog выводит результат выбора в поток диагностики
+        dialog --title "$TITLE" --menu "Выберите действие" 12 60 4 \
+            add "Добавить задачу" list "Показать список" \
+            "done" "Отметить выполненной" exit "Выход" 2> "$tmp" || break
+        case $(cat "$tmp") in
+            add)
+                if dialog --title "$TITLE" --inputbox "Текст задачи" 8 60 2> "$tmp"; then
+                    add_task "$(cat "$tmp")" > /dev/null
+                fi ;;
+            list)
+                dialog --title "$TITLE" --msgbox "$(list_tasks)" 20 70 ;;
+            "done")
+                # пункты собираются в позиционные параметры: текст с пробелами
+                # остаётся одним аргументом, разбиения на слова не происходит
+                set --
+                while IFS='|' read -r state text; do
+                    n=$((${n:-0} + 1))
+                    [ "$state" = 0 ] && set -- "$@" "$n" "$text" off
+                done < "$DATA"
+                n=
+                [ $# -gt 0 ] || { dialog --title "$TITLE" --msgbox "Нет невыполненных задач" 6 40; continue; }
+                if dialog --title "$TITLE" --checklist "Отметьте выполненные" 18 70 10 "$@" 2> "$tmp"; then
+                    for i in $(tr -d '"' < "$tmp"); do done_task "$i" > /dev/null; done
+                fi ;;
+            exit) break ;;
+        esac
+    done
+    clear
+}
+
+init
+case "${1:-}" in
+    '')    dialog_mode ;;
+    add)   shift; add_task "$*" ;;
+    list)  list_tasks ;;
+    "done")  done_task "${2:-}" ;;
+    -v|--version) echo "dzh-todo $VERSION" ;;
+    *)     echo "Использование: dzh-todo [add ТЕКСТ | list | done N]" >&2; exit 1 ;;
+esac
