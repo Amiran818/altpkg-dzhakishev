@@ -1,0 +1,15 @@
+
+Таблица символов «.dynsym» содержит 12 элементов:
+   Чис:    Знач           Разм Тип     Связ   Vis      Индекс имени
+     0: 0000000000000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+     2: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND printf@GLIBC_2.2.5 (2)
+     3: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND fprintf@GLIBC_2.2.5 (2)
+     4: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+     5: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+     6: 0000000000000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.2.5 (2)
+     7: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND stderr@GLIBC_2.2.5 (2)
+     8: 0000000000004010    14 OBJECT  GLOBAL DEFAULT   24 mark_begin
+     9: 0000000000004024     4 OBJECT  GLOBAL DEFAULT   25 counter
+    10: 0000000000001160    92 FUNC    GLOBAL DEFAULT   13 print_help
+    11: 0000000000001119    71 FUNC    GLOBAL DEFAULT   13 print_arg

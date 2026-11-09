@@ -1,0 +1,4 @@
+	linux-vdso.so.1 (0x00007f6230a3b000)
+	libdzhargs.so.1 => ./libdzhargs.so.1 (0x00007f6230a2b000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007f623082d000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f6230a3d000)

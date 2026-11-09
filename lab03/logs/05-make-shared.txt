@@ -1,0 +1,15 @@
+gcc -c -O2 -Wall main.c -o main.o
+gcc -c -O2 -Wall output.c -o output.o
+gcc -c -O2 -Wall counter.c -o counter.o
+gcc  -o dzhargs main.o output.o counter.o 
+ar -rv libdzhargs.a output.o
+ar: создаётся libdzhargs.a
+a - output.o
+ar -rv libdzhargs.a counter.o
+a - counter.o
+gcc  -o dzhargs-static main.o -L. -Wl,-Bstatic -ldzhargs -Wl,-Bdynamic 
+gcc -O2 -Wall -fPIC -c -o pic/output.o output.c
+gcc -O2 -Wall -fPIC -c -o pic/counter.o counter.c
+gcc  -shared -Wl,-soname,libdzhargs.so.1 -o libdzhargs.so.1 pic/output.o pic/counter.o 
+ln -sf libdzhargs.so.1 libdzhargs.so
+gcc  -o dzhargs-shared main.o -L. -ldzhargs 

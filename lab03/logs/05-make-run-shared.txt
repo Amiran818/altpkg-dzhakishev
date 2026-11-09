@@ -1,0 +1,5 @@
+LD_LIBRARY_PATH=. ./dzhargs-shared one two
+=== begin ===
+1: one
+2: two
+=== end: 2 ===

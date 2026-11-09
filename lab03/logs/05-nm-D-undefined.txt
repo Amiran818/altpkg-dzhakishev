@@ -1,0 +1,7 @@
+                 w __cxa_finalize@GLIBC_2.2.5
+                 U fprintf@GLIBC_2.2.5
+                 w __gmon_start__
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+                 U printf@GLIBC_2.2.5
+                 U stderr@GLIBC_2.2.5
