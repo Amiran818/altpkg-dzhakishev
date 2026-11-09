@@ -1,0 +1,4 @@
+${S#*/}  = usr/share/doc/lab04/report.tar.gz
+${S##*/} = report.tar.gz
+${S%.*}  = /usr/share/doc/lab04/report.tar
+${S%%.*} = /usr/share/doc/lab04/report

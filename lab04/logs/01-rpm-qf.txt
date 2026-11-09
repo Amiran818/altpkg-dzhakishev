@@ -1,0 +1,5 @@
+/usr/bin/echo  coreutils-9.4.0.75.7f2c97-alt1.x86_64
+/usr/bin/test  coreutils-9.4.0.75.7f2c97-alt1.x86_64
+/bin/grep      grep-3.11.0.20.dd8f-alt1.x86_64
+/bin/sed       sed-4.9.0.32.5420-alt1.x86_64
+/bin/mktemp    coreutils-9.4.0.75.7f2c97-alt1.x86_64

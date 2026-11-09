@@ -1,0 +1,22 @@
+cd — это встроенная команда bash
+--
+echo — это встроенная команда bash
+echo является /usr/bin/echo
+echo является /bin/echo
+--
+test — это встроенная команда bash
+test является /usr/bin/test
+test является /bin/test
+--
+ll — это псевдонимом для «ls -l»
+--
+grep — это псевдонимом для «grep --color=auto»
+grep является /usr/bin/grep
+grep является /bin/grep
+--
+sed является /usr/bin/sed
+sed является /bin/sed
+--
+mktemp является /usr/bin/mktemp
+mktemp является /bin/mktemp
+--

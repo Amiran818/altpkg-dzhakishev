@@ -1,0 +1,8 @@
+/bin/bash                  2  executable
+/bin/false                 2  executable
+/dev/null                 50  not executable
+/sbin/nologin              4  executable
+dialog: found
+sponge: found
+gear-srpmimport: found
+xxd: found
