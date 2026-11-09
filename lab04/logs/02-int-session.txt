@@ -1,0 +1,4 @@
+временный файл: /tmp/.private/user/tmp.jyJaudGGDU
+-rw------- 1 user user 0 ноя  9 22:32 /tmp/.private/user/tmp.jyJaudGGDU
+строк записано: 3
+^C

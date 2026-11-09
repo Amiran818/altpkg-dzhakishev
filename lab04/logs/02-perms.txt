@@ -1,0 +1,3 @@
+-rw------- 600 user /tmp/.private/user/tmp.0trRRocMBS
+drwx------ 700 user /tmp/.private/user/tmp.jGZXJ5tckJ
+drwxrwx--T 1770 root /tmp/.private/user

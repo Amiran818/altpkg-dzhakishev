@@ -1,0 +1,4 @@
+lab.lAe
+XXX: rc=0
+mktemp: слишком мало X в шаблоне «lab.XX»
+XX: rc=1

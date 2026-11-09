@@ -1,0 +1,8 @@
+временный файл: /tmp/.private/user/tmp.sUgDEkCZIz
+-rw------- 1 user user 0 ноя  9 22:32 /tmp/.private/user/tmp.sUgDEkCZIz
+строк записано: 7
+rc=0
+временный файл: /tmp/.private/user/tmp.878gipDk9a
+-rw------- 1 user user 0 ноя  9 22:32 /tmp/.private/user/tmp.878gipDk9a
+строк записано: 7
+rc=0

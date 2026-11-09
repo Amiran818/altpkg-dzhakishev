@@ -1,0 +1,4 @@
+временный файл: /tmp/.private/user/tmp.tGNXWuifHb
+-rw------- 1 user user 0 ноя  9 22:32 /tmp/.private/user/tmp.tGNXWuifHb
+строк записано: 5
+имитация ошибки
