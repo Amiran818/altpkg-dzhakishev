@@ -1,0 +1,7 @@
+[srpms (root-commit) 14e8ed7] 1.0-alt1
+ 3 files changed, 119 insertions(+)
+ create mode 100644 .gear/rules
+ create mode 100755 dzh-todo
+ create mode 100644 dzhakishev-todo.spec
+gear-srpmimport: Imported /home/user/lab04-work/manual/dzhakishev-todo-1.0-alt1.src.rpm
+gear-srpmimport: Created master branch
