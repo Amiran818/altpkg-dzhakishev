@@ -1,0 +1,7 @@
+# 6б) то же с .SECONDARY
+CFLAGS = -O2 -Wall
+
+libdzhargs.a: libdzhargs.a(output.o counter.o)
+
+# объектные файлы не удалять как промежуточные
+.SECONDARY: output.o counter.o

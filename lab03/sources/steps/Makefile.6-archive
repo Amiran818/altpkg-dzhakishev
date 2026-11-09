@@ -1,0 +1,4 @@
+# 6) только архив: члены собираются встроенными правилами %.o: %.c и (%): %
+CFLAGS = -O2 -Wall
+
+libdzhargs.a: libdzhargs.a(output.o counter.o)

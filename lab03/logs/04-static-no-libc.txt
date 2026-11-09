@@ -1,0 +1,2 @@
+ld: невозможно найти -lc: Нет такого файла или каталога
+collect2: error: ld returned 1 exit status

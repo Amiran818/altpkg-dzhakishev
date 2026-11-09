@@ -1,0 +1,8 @@
+cc -O2 -Wall   -c -o output.o output.c
+ar -rv libdzhargs.a output.o
+ar: создаётся libdzhargs.a
+a - output.o
+cc -O2 -Wall   -c -o counter.o counter.c
+ar -rv libdzhargs.a counter.o
+a - counter.o
+rm counter.o output.o

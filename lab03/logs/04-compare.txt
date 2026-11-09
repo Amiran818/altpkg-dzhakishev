@@ -1,0 +1,10 @@
+-rwxr-xr-x 1 user user 3048120 ноя  9 21:44 dzhargs-full
+-rwxr-xr-x 1 user user   18832 ноя  9 21:41 dzhargs-static
+dzhargs-static: символов 37
+dzhargs-full: символов 1935
+== ldd dzhargs-static
+	linux-vdso.so.1 (0x00007fc77a4f7000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007fc77a2ee000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fc77a4f9000)
+== ldd dzhargs-full
+	не является динамическим исполняемым файлом
