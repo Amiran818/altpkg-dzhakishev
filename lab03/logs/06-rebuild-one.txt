@@ -1,0 +1,6 @@
+gcc -c -O2 -Wall output.c -o output.o
+ar -rv libdzhargs.a output.o
+r - output.o
+ar -rv libdzhargs.a counter.o
+r - counter.o
+gcc  -o dzhargs-static main.o -L. -Wl,-Bstatic -ldzhargs -Wl,-Bdynamic 

@@ -1,0 +1,6 @@
+counter.c
+main.c
+Makefile
+output.c
+prog.h
+steps/

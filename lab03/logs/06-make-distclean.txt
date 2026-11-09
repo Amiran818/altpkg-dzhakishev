@@ -1,0 +1,2 @@
+rm -f *.o pic/output.o pic/counter.o
+rm -rf pic libdzhargs.a libdzhargs.so libdzhargs.so.1 dzhargs dzhargs-static dzhargs-shared dzhargs.out0 dzhargs.out1 dzhargs.out3 dzhargs-static.out0 dzhargs-static.out1 dzhargs-static.out3 dzhargs-shared.out0 dzhargs-shared.out1 dzhargs-shared.out3

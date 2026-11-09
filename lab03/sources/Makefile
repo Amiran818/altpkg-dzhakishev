@@ -10,6 +10,7 @@ OBJS    = main.o output.o counter.o
 LIBOBJS = output.o counter.o
 PICOBJS = $(LIBOBJS:%.o=pic/%.o)
 TARGETS = $(PROG) $(PROG)-static $(PROG)-shared
+OUTS    = $(foreach p,$(TARGETS),$(p).out0 $(p).out1 $(p).out3)
 
 all: $(TARGETS)
 
@@ -46,10 +47,25 @@ $(OBJS): prog.h
 run-shared: $(PROG)-shared
 	LD_LIBRARY_PATH=. ./$(PROG)-shared $(ARGS)
 
+# тестирование: каждый вариант без параметров, с одним и с тремя параметрами;
+# имя исполняемого файла в справке заменяется на PROG
+test:
+	@for p in $(TARGETS); do test -x $$p || { echo "нет $$p, выполните make"; exit 1; }; done
+	@for p in $(TARGETS); do \
+	  LD_LIBRARY_PATH=. ./$$p > $$p.out0 2>&1; echo "rc=$$?" >> $$p.out0; \
+	  sed -i "s|\./$$p |PROG |" $$p.out0; \
+	  LD_LIBRARY_PATH=. ./$$p one > $$p.out1 2>&1; echo "rc=$$?" >> $$p.out1; \
+	  LD_LIBRARY_PATH=. ./$$p one "two words" three > $$p.out3 2>&1; echo "rc=$$?" >> $$p.out3; \
+	done
+	@for n in 0 1 3; do \
+	  cmp $(PROG).out$$n $(PROG)-static.out$$n && cmp $(PROG).out$$n $(PROG)-shared.out$$n || exit 1; \
+	done
+	@echo "test: выводы трёх вариантов совпадают"
+
 clean:
 	rm -f *.o $(PICOBJS)
 
 distclean: clean
-	rm -rf pic lib$(LIB).a lib$(LIB).so $(SONAME) $(TARGETS)
+	rm -rf pic lib$(LIB).a lib$(LIB).so $(SONAME) $(TARGETS) $(OUTS)
 
-.PHONY: all clean distclean run-shared
+.PHONY: all clean distclean test run-shared
