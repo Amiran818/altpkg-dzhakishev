@@ -1,0 +1,9 @@
+/home/user/hasher-lab03/repo
+├── SRPMS.hasher
+│   └── dzhakishev-args-1.0-alt1.src.rpm
+└── x86_64
+    └── RPMS.hasher
+        ├── dzhakishev-args-1.0-alt1.x86_64.rpm
+        └── dzhakishev-args-debuginfo-1.0-alt1.x86_64.rpm
+
+4 directories, 3 files

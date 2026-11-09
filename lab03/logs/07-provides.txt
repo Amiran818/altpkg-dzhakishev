@@ -1,0 +1,2 @@
+libdzhargs.so.1()(64bit) = set:fcOkhiosk
+dzhakishev-args = 1.0-alt1

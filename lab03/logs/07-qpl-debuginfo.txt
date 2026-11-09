@@ -1,0 +1,17 @@
+/usr/lib/debug/.build-id/d4
+/usr/lib/debug/.build-id/d4/217b46682228ec441d65a5a90d005f71a64f81
+/usr/lib/debug/.build-id/d4/217b46682228ec441d65a5a90d005f71a64f81.debug
+/usr/lib/debug/.build-id/f5
+/usr/lib/debug/.build-id/f5/faae7c6f3a0dc168bd5c5a38e1a41ead17d0f9
+/usr/lib/debug/.build-id/f5/faae7c6f3a0dc168bd5c5a38e1a41ead17d0f9.debug
+/usr/lib/debug/.build-id/f8
+/usr/lib/debug/.build-id/f8/ef9c1c1bba2b0322d872c8fd07ce308178a0ad
+/usr/lib/debug/.build-id/f8/ef9c1c1bba2b0322d872c8fd07ce308178a0ad.debug
+/usr/lib/debug/usr/bin/dzhargs-shared.debug
+/usr/lib/debug/usr/bin/dzhargs-static.debug
+/usr/lib/debug/usr/lib64/libdzhargs.so.1.debug
+/usr/src/debug/dzhakishev-args-1.0
+/usr/src/debug/dzhakishev-args-1.0/counter.c
+/usr/src/debug/dzhakishev-args-1.0/main.c
+/usr/src/debug/dzhakishev-args-1.0/output.c
+/usr/src/debug/dzhakishev-args-1.0/prog.h

@@ -1,0 +1,6 @@
+/lib64/ld-linux-x86-64.so.2
+rtld(GNU_HASH)
+libc.so.6(GLIBC_2.3.4)(64bit)
+libc.so.6(GLIBC_2.2.5)(64bit)
+libc.so.6(GLIBC_2.34)(64bit)
+libdzhargs.so.1()(64bit) >= set:fcOkhiosk

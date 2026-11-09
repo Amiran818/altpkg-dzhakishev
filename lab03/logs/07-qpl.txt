@@ -1,0 +1,3 @@
+/usr/bin/dzhargs-shared
+/usr/bin/dzhargs-static
+/usr/lib64/libdzhargs.so.1

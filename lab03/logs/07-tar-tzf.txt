@@ -1,0 +1,6 @@
+dzhakishev-args-1.0/
+dzhakishev-args-1.0/Makefile
+dzhakishev-args-1.0/prog.h
+dzhakishev-args-1.0/counter.c
+dzhakishev-args-1.0/output.c
+dzhakishev-args-1.0/main.c
