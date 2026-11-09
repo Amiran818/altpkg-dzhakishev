@@ -1,0 +1,7 @@
+                 U counter
+0000000000000000 T main
+                 U mark_begin
+                 U print_arg
+                 U printf
+                 U print_help
+                 U puts

@@ -1,0 +1,7 @@
+                 U counter
+                 U fprintf
+0000000000000000 D mark_begin
+0000000000000000 T print_arg
+                 U printf
+000000000000003e T print_help
+                 U stderr

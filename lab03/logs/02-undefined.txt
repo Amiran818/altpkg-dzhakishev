@@ -1,0 +1,8 @@
+counter
+fprintf
+mark_begin
+print_arg
+printf
+print_help
+puts
+stderr

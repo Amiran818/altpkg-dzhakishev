@@ -1,0 +1,4 @@
+fprintf  есть в libc.so.6
+printf   есть в libc.so.6
+puts     есть в libc.so.6
+stderr   есть в libc.so.6
