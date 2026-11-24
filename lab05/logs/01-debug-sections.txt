@@ -1,0 +1,6 @@
+.debug_aranges
+.debug_info
+.debug_abbrev
+.debug_line
+.debug_str
+.debug_line_str

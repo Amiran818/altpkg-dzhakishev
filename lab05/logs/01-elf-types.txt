@@ -1,0 +1,3 @@
+main.o         Тип:                               REL (Перемещаемый файл)
+libseq.so      Тип:                               DYN (Совм. исп. объектный файл)
+progression    Тип:                               DYN (Position-Independent Executable file)

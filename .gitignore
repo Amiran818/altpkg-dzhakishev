@@ -29,3 +29,8 @@ lab03/sources/pic/
 lab03/sources/*.a
 lab03/sources/*.so
 lab03/sources/*.so.*
+# продукты сборки lab05
+lab05/sources/progression*
+lab05/sources/bug
+lab05/sources/bug-fixed
+lab05/sources/*.so

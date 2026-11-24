@@ -1,0 +1,2 @@
+по заголовку: Number of program headers: 13;Number of section headers: 39;
+фактически: program headers=13, section headers=39
