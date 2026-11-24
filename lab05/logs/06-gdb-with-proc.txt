@@ -1,0 +1,17 @@
+Breakpoint 1 at 0x136b: file seq.c, line 7.
+Missing separate debuginfo for /lib64/ld-linux-x86-64.so.2.
+Try to install the hash file /usr/lib/debug/.build-id/62/429d699c6000d36d1a89b6a7def69e8ce8144a.debug
+Missing separate debuginfo for /lib64/libc.so.6.
+Try to install the hash file /usr/lib/debug/.build-id/16/9e9c77efa2e23950e429aa9b36a179832d8ae6.debug
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+
+Breakpoint 1, emit (idx=1, value=0) at seq.c:7
+7	    printf("%ld\n", value);
+#0  emit (idx=1, value=0) at seq.c:7
+#1  0x00005555555553c7 in run (from=0, to=3, step=1) at seq.c:17
+#2  0x0000555555555340 in main (argc=2, argv=0x7fffffffed18) at main.c:46
+No locals.
+
+Breakpoint 1, emit (idx=2, value=1) at seq.c:7
+7	    printf("%ld\n", value);

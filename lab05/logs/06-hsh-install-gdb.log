@@ -1,0 +1,49 @@
+<13>Nov 24 12:55:38 rpmi: libidn2-2.3.8-alt1 p11+393467.100.2.1 1758791477 installed
+<13>Nov 24 12:55:38 rpmi: libnettle8-3.10.1-alt1 p11+372009.100.2.1 1738563797 installed
+<13>Nov 24 12:55:38 rpmi: libexpat-2.7.1-alt1 p11+379972.100.3.1 1744981636 installed
+<13>Nov 24 12:55:38 rpmi: libp11-kit-1:0.26.5-alt1 p11+429276.100.1.1 1786546787 installed
+<13>Nov 24 12:55:38 rpmi: libtasn1-4.21.0-alt2 p11+420752.100.2.1 1782199433 installed
+<13>Nov 24 12:55:38 rpmi: libhogweed6-3.10.1-alt1 p11+372009.100.2.1 1738563797 installed
+<13>Nov 24 12:55:38 rpmi: libgnutls30-3.8.13-alt1 p11+417121.100.2.1 1778247655 installed
+<13>Nov 24 12:55:38 rpmi: libngtcp2.16-1.11.0-alt2 p11+375943.300.5.1 1744228749 installed
+<13>Nov 24 12:55:38 rpmi: libngtcp2_crypto_gnutls8-1.11.0-alt2 p11+375943.300.5.1 1744228749 installed
+<13>Nov 24 12:55:38 rpmi: libmpdec3-2.5.1-alt3 p11+349211.100.1.1 1716635063 installed
+<13>Nov 24 12:55:38 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>Nov 24 12:55:38 rpmi: publicsuffix-list-dafsa-20261007-alt1 p11+435934.100.2.1 1791962156 installed
+<13>Nov 24 12:55:38 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>Nov 24 12:55:38 rpmi: libnghttp3.9-1.8.0-alt1 p11+375943.100.5.1 1744228693 installed
+<13>Nov 24 12:55:38 rpmi: libnghttp2-1.69.0-alt2 p11+428573.300.2.1 1787170742 installed
+<13>Nov 24 12:55:38 rpmi: openldap-common-2.6.13-alt1 p11+411714.200.1.1 1773763004 installed
+<13>Nov 24 12:55:38 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>Nov 24 12:55:38 rpmi: liblmdb-0.9.35-alt1 p11+411714.100.1.1 1773761665 installed
+<13>Nov 24 12:55:38 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>Nov 24 12:55:38 rpmi: openssl-config-3.2.0-alt1 p11+370688.200.3.1 1738846989 installed
+<13>Nov 24 12:55:38 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 p11+363484.200.2.1 1732737732 installed
+<13>Nov 24 12:55:38 rpmi: libbrotlicommon-1.2.1-alt1 p11+402177.100.2.1 1793171496 installed
+<13>Nov 24 12:55:38 rpmi: libbrotlidec-1.2.1-alt1 p11+402177.100.2.1 1793171496 installed
+<13>Nov 24 12:55:38 rpmi: libb2-0.98.1-alt1_1 p11+348811.100.1.1 1716520221 installed
+<13>Nov 24 12:55:38 rpmi: gdb-common-14.1.0.56.d739d4fd457-alt1 sisyphus+338901.300.3.1 1706109034 installed
+<13>Nov 24 12:55:38 rpmi: debuginfod-urls-0.191-alt1 sisyphus+347509.100.1.1 1714859321 installed
+<13>Nov 24 12:55:38 rpmi: rpm-macros-alternatives-0.5.3-alt1 p11+371884.100.2.1 1738152096 installed
+<13>Nov 24 12:55:38 rpmi: alternatives-0.5.3-alt1 p11+371884.100.2.1 1738152096 installed
+<13>Nov 24 12:55:38 rpmi: ca-certificates-2026.10.22-alt1 p11+438156.200.2.1 1793121994 installed
+<13>Nov 24 12:55:38 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>Nov 24 12:55:38 rpmi: p11-kit-trust-1:0.26.5-alt1 p11+429276.100.1.1 1786546787 installed
+<13>Nov 24 12:55:38 rpmi: libcrypto3-3.5.7-alt2 p11+437575.100.2.1 1792695564 installed
+<13>Nov 24 12:55:39 rpmi: libssl3-3.5.7-alt2 p11+437575.100.2.1 1792695564 installed
+<13>Nov 24 12:55:39 rpmi: python3-3.12.13-alt1 p11+427596.100.2.1 1786178037 installed
+<13>Nov 24 12:55:39 rpmi: python3-base-3.12.13-alt1 p11+427596.100.2.1 1786178037 installed
+<86>Nov 24 12:55:40 groupadd[20585]: group added to /etc/group: name=_keytab, GID=999
+<86>Nov 24 12:55:40 groupadd[20585]: group added to /etc/gshadow: name=_keytab
+<86>Nov 24 12:55:40 groupadd[20585]: new group: name=_keytab, GID=999
+<13>Nov 24 12:55:40 rpmi: libkrb5-1.21.3-alt2.1 p11+435887.100.4.1 1791571433 installed
+<86>Nov 24 12:55:40 groupadd[20592]: group added to /etc/group: name=sasl, GID=998
+<86>Nov 24 12:55:40 groupadd[20592]: group added to /etc/gshadow: name=sasl
+<86>Nov 24 12:55:40 groupadd[20592]: new group: name=sasl, GID=998
+<13>Nov 24 12:55:40 rpmi: libsasl2-3-2.1.28-alt4 p11+418777.100.3.1 1780409771 installed
+<13>Nov 24 12:55:40 rpmi: libldap2-2.6.13-alt1 p11+411714.200.1.1 1773763004 installed
+<13>Nov 24 12:55:40 rpmi: libpython3-3.12.13-alt1 p11+427596.100.2.1 1786178037 installed
+<13>Nov 24 12:55:40 rpmi: libssh2-1.11.1-alt4 p11+428600.100.2.1 1786697726 installed
+<13>Nov 24 12:55:40 rpmi: libcurl-8.23.0-alt1 p11+436931.100.1.1 1792011609 installed
+<13>Nov 24 12:55:40 rpmi: libdebuginfod-0.191-alt1 sisyphus+347509.100.1.1 1714859321 installed
+<13>Nov 24 12:55:40 rpmi: gdb-14.1.0.56.d739d4fd457-alt1 sisyphus+338901.300.3.1 1706109034 installed

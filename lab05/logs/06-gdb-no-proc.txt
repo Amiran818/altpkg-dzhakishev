@@ -1,0 +1,15 @@
+Breakpoint 1 at 0x136b: file seq.c, line 7.
+warning: /proc is not accessible.
+warning: opening /proc/self/mem file failed: No such file or directory (2)
+warning: opening /proc/PID/mem file for lwp 21030.21030 failed: No such file or directory (2)
+Missing separate debuginfo for /lib64/ld-linux-x86-64.so.2.
+Try to install the hash file /usr/lib/debug/.build-id/62/429d699c6000d36d1a89b6a7def69e8ce8144a.debug
+Warning:
+Cannot insert breakpoint 1.
+Cannot access memory at address 0x135b
+
+#0  0x00007ffff7fe4140 in _start () from /lib64/ld-linux-x86-64.so.2
+#1  0x0000000000000002 in ?? ()
+#2  0x00007fffffffef2d in ?? ()
+#3  0x00007fffffffef42 in ?? ()
+#4  0x0000000000000000 in ?? ()

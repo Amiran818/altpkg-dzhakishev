@@ -1,0 +1,3 @@
+
+prefix=~:/tmp/.private
+allowed_mountpoints=/proc
