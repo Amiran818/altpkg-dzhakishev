@@ -1,0 +1,2 @@
+-rwxr-xr-x 1 user user 22056 ноя 24 15:08 progression-dbg
+-rwxr-xr-x 1 user user 14936 ноя 24 15:08 progression-stripped

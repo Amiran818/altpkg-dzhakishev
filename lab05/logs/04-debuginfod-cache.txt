@@ -1,0 +1,2 @@
+/home/user/.cache/debuginfod_client/314c4e4a4098e46003d17ae9eb25f6e9e7a91204/debuginfo
+/home/user/.cache/debuginfod_client/cache_clean_interval_s

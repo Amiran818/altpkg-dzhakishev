@@ -1,0 +1,8 @@
+== gdb progression-dbg
+Reading symbols from ./progression-dbg...
+7	    printf("%ld\n", value);
+8	    (void)idx;
+== gdb progression-stripped
+Reading symbols from ./progression-stripped...
+(No debugging symbols found in ./progression-stripped)
+No symbol table is loaded.  Use the "file" command.

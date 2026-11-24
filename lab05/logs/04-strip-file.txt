@@ -1,0 +1,2 @@
+progression-dbg:      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+progression-stripped: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, stripped

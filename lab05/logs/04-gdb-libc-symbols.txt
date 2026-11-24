@@ -1,0 +1,11 @@
+Function "write" not defined.
+Breakpoint 1 (write) pending.
+Breakpoint 1, __GI___libc_write (fd=1, buf=0x5555555592a0, nbytes=4) at ../sysdeps/unix/sysv/linux/write.c:26
+26	  return SYSCALL_CANCEL (write, fd, buf, nbytes);
+#0  __GI___libc_write (fd=1, buf=0x5555555592a0, nbytes=4) at ../sysdeps/unix/sysv/linux/write.c:26
+#1  0x00007ffff7e45fd5 in _IO_new_file_write (f=0x7ffff7f9d5c0 <_IO_2_1_stdout_>, data=0x5555555592a0, n=4) at fileops.c:1181
+#2  0x00007ffff7e44304 in new_do_write (fp=0x7ffff7f9d5c0 <_IO_2_1_stdout_>, data=0x5555555592a0 "0\n1\n", to_do=to_do@entry=4) at /usr/src/debug/glibc-2.38.0.223.f053ff-alt1.p11.1/libio/libioP.h:1030
+#3  0x00007ffff7e450c9 in _IO_new_do_write (fp=<optimized out>, data=<optimized out>, to_do=4) at fileops.c:426
+From                To                  Syms Read   Shared Object Library
+0x00007ffff7fca000  0x00007ffff7fef7f1  Yes         /lib64/ld-linux-x86-64.so.2
+0x00007ffff7de9400  0x00007ffff7f420fd  Yes         /lib64/libc.so.6

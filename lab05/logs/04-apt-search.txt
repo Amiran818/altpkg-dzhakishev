@@ -1,0 +1,2 @@
+glibc-core-debuginfo - The GNU libc core libraries and utilities (debug files)
+zlib-debuginfo - The zlib compression and decompression library (debug files)

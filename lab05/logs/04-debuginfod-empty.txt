@@ -1,0 +1,3 @@
+Reading symbols from ./progression-stripped...
+(No debugging symbols found in ./progression-stripped)
+No symbol table is loaded.  Use the "file" command.
