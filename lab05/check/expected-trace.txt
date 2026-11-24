@@ -1,0 +1,2 @@
+LAB5 trace idx=2 value=5
+LAB5 trace idx=4 value=15

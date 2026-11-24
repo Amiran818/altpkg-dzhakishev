@@ -1,0 +1,5 @@
+gdb --batch --quiet --nx -x ../gdb/trace.gdb ./progression < /dev/null 2>&1 | grep '^LAB5 ' > trace.out
+gdb --batch --quiet --nx -x ../gdb/range.gdb ./progression < /dev/null 2>&1 | grep '^LAB5 ' > range.out
+diff trace.out ../check/expected-trace.txt
+diff range.out ../check/expected-range.txt
+check: вывод сценариев gdb совпадает с эталоном

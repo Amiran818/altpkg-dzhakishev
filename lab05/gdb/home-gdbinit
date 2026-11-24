@@ -1,0 +1,3 @@
+# ~/.gdbinit - файл начальной настройки в домашнем каталоге
+# разрешить автозагрузку .gdbinit из каталога демонстрации
+add-auto-load-safe-path /home/user/lab05-work/gdbinit-demo

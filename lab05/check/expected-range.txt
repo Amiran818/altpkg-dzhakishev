@@ -1,0 +1,3 @@
+LAB5 range idx=3 value=6
+LAB5 range idx=4 value=4
+LAB5 range idx=5 value=2

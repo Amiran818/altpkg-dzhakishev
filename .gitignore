@@ -34,3 +34,4 @@ lab05/sources/progression*
 lab05/sources/bug
 lab05/sources/bug-fixed
 lab05/sources/*.so
+lab05/sources/*.out

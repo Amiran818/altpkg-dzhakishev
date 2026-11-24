@@ -1,0 +1,4 @@
+# ./.gdbinit - файл начальной настройки текущего каталога
+define lab5hello
+  echo LAB5 hello from ./.gdbinit\n
+end

@@ -1,0 +1,6 @@
+diff trace.out ../check/expected-trace.txt
+2c2
+< LAB5 trace idx=4 value=15
+---
+> LAB5 trace idx=4 value=16
+make: *** [Makefile:20: check] Error 1
