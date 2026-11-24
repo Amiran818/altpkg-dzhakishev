@@ -1,0 +1,7 @@
+bug.c: In function ‘add_bonus’:
+bug.c:22:12: warning: ‘bonus’ is used uninitialized [-Wuninitialized]
+   22 |     *bonus = acc.balance * percent / 100;
+      |     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+bug.c:20:10: note: ‘bonus’ was declared here
+   20 |     int *bonus;                          /* ОШИБКА: указатель не инициализирован */
+      |          ^~~~~

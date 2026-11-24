@@ -1,0 +1,2 @@
+balance before: 1000
+balance: 100, bonus: 0
