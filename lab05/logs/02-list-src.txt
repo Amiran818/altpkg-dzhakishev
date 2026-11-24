@@ -1,0 +1,4 @@
+7	    printf("%ld\n", value);
+8	    (void)idx;
+9	}
+10	

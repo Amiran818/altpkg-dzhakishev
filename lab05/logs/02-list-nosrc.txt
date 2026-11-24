@@ -1,0 +1,2 @@
+warning: 7	seq.c: Нет такого файла или каталога
+Source directories searched: $cdir:$cwd

@@ -1,0 +1,3 @@
+-rwxr-xr-x 1 user user 22056 ноя 24 15:04 progression-O0g
+-rwxr-xr-x 1 user user 24512 ноя 24 15:04 progression-O2g
+-rwxr-xr-x 1 user user 18816 ноя 24 15:04 progression-plain

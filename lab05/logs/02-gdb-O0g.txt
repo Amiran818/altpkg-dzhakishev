@@ -1,0 +1,28 @@
+7	    printf("%ld\n", value);
+8	    (void)idx;
+9	}
+10	
+11	long run(long from, long to, long step)
+12	{
+13	    long value, idx = 0;
+14	
+15	    for (value = from; step > 0 ? value <= to : value >= to; value += step) {
+16	        idx++;
+Breakpoint 1 at 0x139d: file seq.c, line 13.
+Missing separate debuginfo for /lib64/ld-linux-x86-64.so.2.
+Try to install the hash file /usr/lib/debug/.build-id/62/429d699c6000d36d1a89b6a7def69e8ce8144a.debug
+Missing separate debuginfo for /lib64/libc.so.6.
+Try to install the hash file /usr/lib/debug/.build-id/16/9e9c77efa2e23950e429aa9b36a179832d8ae6.debug
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+
+Breakpoint 1, run (from=0, to=3, step=1) at seq.c:13
+13	    long value, idx = 0;
+value = 3
+idx = 2900106085610548480
+15	    for (value = from; step > 0 ? value <= to : value >= to; value += step) {
+16	        idx++;
+17	        emit(idx, value);
+15	    for (value = from; step > 0 ? value <= to : value >= to; value += step) {
+value = 0
+idx = 1

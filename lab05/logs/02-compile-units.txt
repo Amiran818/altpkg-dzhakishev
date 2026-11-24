@@ -1,0 +1,8 @@
+== plain: единицы компиляции DWARF
+../sysdeps/x86/abi-note.c
+init.c
+== O0g: единицы компиляции DWARF
+../sysdeps/x86/abi-note.c
+init.c
+main.c
+seq.c
