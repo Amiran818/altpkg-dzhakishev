@@ -158,9 +158,12 @@ t4_spaces() {
 }
 t4_dialog() {
     mkdir -p "$WORK/tmp"
-    (sleep 1; printf e; sleep 0.3; printf '\r') |
+    # «e», Enter - пункт «Выход»; повторяется, если первое нажатие пришло
+    # раньше, чем dialog вывел меню (тогда Enter открывает ввод задачи);
+    # timeout не даёт проверке зависнуть
+    (for _ in 1 2 3; do sleep 1.5; printf e; sleep 0.5; printf '\r'; done) |
         LC_ALL=C.UTF-8 TMPDIR="$WORK/tmp" XDG_CONFIG_HOME="$WORK/cfg" TERM=xterm-256color \
-        script -qec "stty rows 24 cols 80; sh $TODO; echo \"dzh-todo rc=\$?\"" "$WORK/session" > /dev/null
+        timeout 30 script -qec "stty rows 24 cols 80; sh $TODO; echo \"dzh-todo rc=\$?\"" "$WORK/session" > /dev/null
     grep -aq 'dzh-todo rc=0' "$WORK/session" && grep -aq 'Список задач dzh-todo' "$WORK/session" &&
     [ -z "$(ls -A "$WORK/tmp")" ]
 }
@@ -197,7 +200,9 @@ t7_logs() {
 # ---------- gear: локальный репозиторий ----------
 g_struct() {
     cd "$GEAR_DIR" || return 1
-    [ -f .gear/rules ] && git rev-parse -q --verify refs/heads/master && git rev-parse -q --verify refs/heads/srpms &&
+    # в свежем клоне ветка srpms есть только как origin/srpms
+    [ -f .gear/rules ] && git rev-parse -q --verify refs/heads/master &&
+    { git rev-parse -q --verify refs/heads/srpms || git rev-parse -q --verify refs/remotes/origin/srpms; } &&
     git rev-parse -q --verify refs/tags/1.0-alt1 && git rev-parse -q --verify refs/tags/1.1-alt1
 }
 g_tree() {
