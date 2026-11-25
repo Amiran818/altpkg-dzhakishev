@@ -84,7 +84,7 @@ t2_nosrc() {
 t2_sizes() { [ "$(stat -c %s p-plain p-O0g p-O2g | sort -u | wc -l)" -eq 3 ]; }
 
 # ---------- задание 3: поиск ошибки ----------
-t3_warning() { gcc -Wall -O0 -g -o bug bug.c 2>&1 | grep -q "'bonus' is used uninitialized"; }
+t3_warning() { LC_ALL=C gcc -Wall -O0 -g -o bug bug.c 2>&1 | grep -q "'bonus' is used uninitialized"; }
 t3_addresses() {
     $GDB -x "$GDBDIR/bug.gdb" ./bug > s 2>&1 || return 1
     local a b
