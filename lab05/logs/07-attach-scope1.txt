@@ -1,0 +1,3 @@
+ptrace: Операция не позволена.
+No current process: you must name one.
+The program is not being run.

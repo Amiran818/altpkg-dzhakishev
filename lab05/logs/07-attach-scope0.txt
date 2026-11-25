@@ -1,0 +1,13 @@
+Missing separate debuginfo for /usr/bin/sleep.
+Try to install the hash file /usr/lib/debug/.build-id/78/37873ee465065463c7f8b1d4b37aaa6f8bda5c.debug
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+__GI___clock_nanosleep (clock_id=clock_id@entry=0, flags=flags@entry=0, req=0x7fff74786b40, rem=0x7fff74786b30) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:71
+71	  return -r;
+process 11019
+cmdline = 'sleep 3600'
+cwd = '/home/user/lab05-work/altpkg-dzhakishev/lab05/sources'
+exe = '/usr/bin/sleep'
+#0  __GI___clock_nanosleep (clock_id=clock_id@entry=0, flags=flags@entry=0, req=0x7fff74786b40, rem=0x7fff74786b30) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:71
+#1  0x00007fc762d6b123 in __GI___nanosleep (req=<optimized out>, rem=<optimized out>) at ../sysdeps/unix/sysv/linux/nanosleep.c:25
+[Inferior 1 (process 11019) detached]
