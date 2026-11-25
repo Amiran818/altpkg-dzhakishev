@@ -84,12 +84,18 @@ t2_nosrc() {
 t2_sizes() { [ "$(stat -c %s p-plain p-O0g p-O2g | sort -u | wc -l)" -eq 3 ]; }
 
 # ---------- задание 3: поиск ошибки ----------
-t3_warning() { LC_ALL=C gcc -Wall -O0 -g -o bug bug.c 2>&1 | grep -q "'bonus' is used uninitialized"; }
+t3_warning() {
+    # вывод сначала в файл: при "gcc | grep -q" grep выходит на первом совпадении,
+    # gcc получает SIGPIPE и может не успеть создать ./bug
+    LC_ALL=C gcc -Wall -O0 -g -o bug bug.c > warn.txt 2>&1 && [ -x bug ] &&
+    grep -q "'bonus' is used uninitialized" warn.txt
+}
 t3_addresses() {
     $GDB -x "$GDBDIR/bug.gdb" ./bug > s 2>&1 || return 1
     local a b
-    a=$(grep -A1 'show_balance: адрес' s | grep -oE '0x[0-9a-f]+' | head -1)
-    b=$(grep -A1 'add_bonus: адрес' s | grep -oE '0x[0-9a-f]+' | head -1)
+    # print &field и print &bonus дают строки вида "$N = (int **) 0x..."
+    a=$(grep -E '^\$[0-9]+ = \(int \*\*\) 0x' s | sed -n 1p | grep -oE '0x[0-9a-f]+')
+    b=$(grep -E '^\$[0-9]+ = \(int \*\*\) 0x' s | sed -n 2p | grep -oE '0x[0-9a-f]+')
     [ -n "$a" ] && [ "$a" = "$b" ]
 }
 t3_backtrace() { [ "$(sed -n '/== стек вызовов/,/^percent/p' s | grep -cE '^#[0-9]+ ')" -ge 3 ]; }
