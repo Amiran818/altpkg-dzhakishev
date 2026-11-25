@@ -1,0 +1,36 @@
+warning: File transfers from remote targets can be slow. Use "set sysroot" to access files locally instead.
+Reading /lib64/ld-linux-x86-64.so.2 from remote target...
+Missing separate debuginfo for target:/lib64/ld-linux-x86-64.so.2.
+Try to install the hash file /usr/lib/debug/.build-id/62/429d699c6000d36d1a89b6a7def69e8ce8144a.debug
+Reading /lib64/ld-linux-x86-64.so.2 from remote target...
+Reading /lib64/ld-linux-x86-64.so.2.debug from remote target...
+Reading /lib64/.debug/ld-linux-x86-64.so.2.debug from remote target...
+Reading /usr/lib/debug//lib64/ld-linux-x86-64.so.2.debug from remote target...
+Reading /usr/lib/debug/lib64//ld-linux-x86-64.so.2.debug from remote target...
+0x00007ffff7fe4140 in _start () from target:/lib64/ld-linux-x86-64.so.2
+Breakpoint 1 at 0x55555555536b: file seq.c, line 7.
+Reading /lib64/libc.so.6 from remote target...
+Reading /lib64/libc.so.6.debug from remote target...
+Reading /lib64/.debug/libc.so.6.debug from remote target...
+Reading /usr/lib/debug//lib64/libc.so.6.debug from remote target...
+Reading /usr/lib/debug/lib64//libc.so.6.debug from remote target...
+Missing separate debuginfo for target:/lib64/libc.so.6.
+Try to install the hash file /usr/lib/debug/.build-id/16/9e9c77efa2e23950e429aa9b36a179832d8ae6.debug
+
+Breakpoint 1, emit (idx=1, value=0) at seq.c:7
+7	    printf("%ld\n", value);
+#0  emit (idx=1, value=0) at seq.c:7
+#1  0x00005555555553c7 in run (from=0, to=6, step=3) at seq.c:17
+#2  0x0000555555555340 in main (argc=4, argv=0x7fffffffed28) at main.c:46
+2	#include <stdio.h>
+3	#include "seq.h"
+4	
+5	void emit(long idx, long value)
+6	{
+7	    printf("%ld\n", value);
+8	    (void)idx;
+9	}
+10	
+11	long run(long from, long to, long step)
+$1 = 0
+[Inferior 1 (process 10823) exited normally]

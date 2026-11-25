@@ -59,9 +59,13 @@ else
     hsh --initroot-only $NUM "$WORKDIR" < /dev/null
 fi
 
-# 2. настройки разрешения имён
-# shellcheck disable=SC2086
-hsh-copy --rooter $NUM --workdir="$WORKDIR" /etc/resolv.conf /etc/hosts /etc/ < /dev/null
+# 2. настройки разрешения имён: файлы хоста записываются в окружение
+#    от имени служебного суперпользователя (hsh-copy 1.7.7 не принимает
+#    значение у ключа --number, поэтому копирование через hsh-run)
+for f in /etc/resolv.conf /etc/hosts; do
+    # shellcheck disable=SC2086
+    hsh-run --rooter $NUM "$WORKDIR" -- sh -c "cat > $f" < "$f"
+done
 
 # 3. пакеты (уже установленные apt пропускает)
 # shellcheck disable=SC2086

@@ -1,0 +1,4 @@
+prepare-hasher: окружение /home/user/hasher-lab05 уже есть, не пересоздаётся
+gdbserver-14.1.0.56.d739d4fd457-alt1.x86_64
+gdb-14.1.0.56.d739d4fd457-alt1.x86_64
+2a02:6b8::183   mirror.yandex.ru
